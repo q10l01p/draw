@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T02:30:48.772Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="WSlivF28bAn7qNfglTP9" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-21T02:41:13.092Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="S_gPUx-hMisTtZI_6HEc" version="22.1.11" type="github" pages="2">
   <diagram name="REINFORCE" id="wOIUFvS3HHqLQGJgAhAG">
     <mxGraphModel dx="1185" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -186,10 +186,261 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ODrEXsJJAwDOYtSponNZ" name="REINFORCE with  baseline">
-    <mxGraphModel dx="576" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2012" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AV-FN8kRpnLectql__CZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="90" as="sourcePoint" />
+            <mxPoint x="120" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;shadow=1;" edge="1" parent="1" source="AV-FN8kRpnLectql__CZ-7" target="AV-FN8kRpnLectql__CZ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="90" />
+              <mxPoint x="350" y="90" />
+              <mxPoint x="350" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1" source="AV-FN8kRpnLectql__CZ-7" target="AV-FN8kRpnLectql__CZ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="110" />
+              <mxPoint x="330" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1" source="AV-FN8kRpnLectql__CZ-7" target="AV-FN8kRpnLectql__CZ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="150" />
+              <mxPoint x="290" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1" source="AV-FN8kRpnLectql__CZ-7" target="AV-FN8kRpnLectql__CZ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="130" />
+              <mxPoint x="310" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1" source="AV-FN8kRpnLectql__CZ-7" target="AV-FN8kRpnLectql__CZ-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="60" />
+              <mxPoint x="500" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-7" value="&lt;div&gt;策略网络&lt;/div&gt;&lt;div&gt;`a_t\sim\pi(\cdot|s_t;\theta_\text{now})`&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1" source="AV-FN8kRpnLectql__CZ-12" target="AV-FN8kRpnLectql__CZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="310" />
+              <mxPoint x="50" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1" source="AV-FN8kRpnLectql__CZ-12" target="AV-FN8kRpnLectql__CZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="290" />
+              <mxPoint x="70" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;shadow=1;" edge="1" parent="1" source="AV-FN8kRpnLectql__CZ-12" target="AV-FN8kRpnLectql__CZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="270" />
+              <mxPoint x="90" y="270" />
+              <mxPoint x="90" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1" source="AV-FN8kRpnLectql__CZ-12" target="AV-FN8kRpnLectql__CZ-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="350" />
+              <mxPoint x="260" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-12" value="环境" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-13" value="`S_1`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-14" value="`a_1`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-15" value="`S_2`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-16" value="`a_2`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-17" value="`S_3`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-18" value="`a_{n-1}`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-19" value="`S_{n-1}`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AV-FN8kRpnLectql__CZ-21" target="AV-FN8kRpnLectql__CZ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-21" value="&lt;div&gt;回报&lt;/div&gt;&lt;div&gt;`u_t=\sum_{k=t}^n\gamma^{k-t}\cdot r_k,\quad\forall t=1,\cdots,n.`&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-22" value="`a_{n}`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-23" value="`r_{1}`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="320" as="sourcePoint" />
+            <mxPoint x="230" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="350" />
+              <mxPoint x="230" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-25" value="`r_{2}`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="320" as="sourcePoint" />
+            <mxPoint x="200" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="350" />
+              <mxPoint x="200" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-27" value="`r_{3}`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="340" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="320" as="sourcePoint" />
+            <mxPoint x="140" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="350" />
+              <mxPoint x="140" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-29" value="`r_{1}`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="AV-FN8kRpnLectql__CZ-31" target="AV-FN8kRpnLectql__CZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="200" />
+              <mxPoint x="200" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-31" value="&lt;div&gt;策略网络更新&lt;/div&gt;&lt;div&gt;`\theta_\text{new}\leftarrow\theta_\text{now}+\beta\cdot\sum_{t=1}^n\gamma^{t-1} \cdot \underbrace{u_t\cdot\nabla_{\theta\ln\pi(a_t,s_t;\theta_\text{now})}}_{\text{即随机梯度 }\tilde{g}(s_t,a_t;\theta_{\text{now}})}`&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-32" value="`\nabla_{\theta}\ln\pi(a_t, s_t;\theta_{\text{now}}),\quad\forall=1,\cdots,n.`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-33" value="`\theta_{\text{new}}`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-34" value="`u_{t}`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-35" value="&lt;div&gt;价值网络&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;`\hat v_t=v(s_t;w_\text{now}),\quad\forall t=1,\cdots,n.)`&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-57" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-20" y="720" width="440" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-36" value="" style="html=1;shape=mxgraph.basic.isocube;isoAngle=15;flipH=1;flipV=0;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-57">
+          <mxGeometry y="35" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-37" value="巻积网络" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-57">
+          <mxGeometry x="80" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="AV-FN8kRpnLectql__CZ-57" source="AV-FN8kRpnLectql__CZ-36" target="AV-FN8kRpnLectql__CZ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-47" value="全连接网络" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-57">
+          <mxGeometry x="280" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="AV-FN8kRpnLectql__CZ-57" source="AV-FN8kRpnLectql__CZ-42" target="AV-FN8kRpnLectql__CZ-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="60" />
+              <mxPoint x="250" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-49" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-57">
+          <mxGeometry x="410" y="50" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="AV-FN8kRpnLectql__CZ-57" source="AV-FN8kRpnLectql__CZ-47" target="AV-FN8kRpnLectql__CZ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-51" value="`s`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-57">
+          <mxGeometry y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-52" value="特征向量" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-57">
+          <mxGeometry x="180" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-55" value="价值" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-57">
+          <mxGeometry x="400" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-56" value="" style="group;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="AV-FN8kRpnLectql__CZ-57">
+          <mxGeometry x="210" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-45" value="" style="group;fillColor=#60a917;strokeColor=#2D7600;container=0;fontColor=#ffffff;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="AV-FN8kRpnLectql__CZ-56">
+          <mxGeometry width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-39" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-56">
+          <mxGeometry width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-40" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-56">
+          <mxGeometry y="20" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-41" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-56">
+          <mxGeometry y="40" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-42" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-56">
+          <mxGeometry y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-43" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-56">
+          <mxGeometry y="80" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-44" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="AV-FN8kRpnLectql__CZ-56">
+          <mxGeometry y="100" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AV-FN8kRpnLectql__CZ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="AV-FN8kRpnLectql__CZ-57" source="AV-FN8kRpnLectql__CZ-37" target="AV-FN8kRpnLectql__CZ-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="60" />
+              <mxPoint x="190" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
