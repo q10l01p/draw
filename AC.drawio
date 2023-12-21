@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T05:46:06.904Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="hO1v07Cv8Lb3hMcpmLOp" version="22.1.11" type="github">
-  <diagram name="第 1 页" id="c5FZtJs6mLwErsmeNLna">
+<mxfile host="app.diagrams.net" modified="2023-12-21T05:47:33.267Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="cIE-zfHjNSn8MvwINA_I" version="22.1.11" type="github" pages="3">
+  <diagram name="AC" id="c5FZtJs6mLwErsmeNLna">
     <mxGraphModel dx="1185" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
@@ -360,6 +360,22 @@
         <mxCell id="1JlZcdH9sbEa-k1Yw16P-211" value="`w_{\text{new}}`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="450" width="40" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OXwsSZ6LUHIqvhCJy7e3" name="AC with target network">
+    <mxGraphModel dx="1430" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vAIT11oc6pzsG_TkUp0T" name="第 3 页">
+    <mxGraphModel dx="2074" dy="1309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
