@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T07:18:28.496Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="2X942iT0J6aR-Yhnhcwq" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-22T07:27:53.939Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="Nc2Ujg9WsOhiFoqdLagh" version="22.1.11" type="github" pages="3">
   <diagram name="第 1 页" id="EOz1U6gYO-YNxZWnHOJD">
-    <mxGraphModel dx="862" dy="1812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="827" dy="1773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -739,6 +739,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="2RhzQoHHJ9l5Md15VYqz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d5VmrL8W0093dUrV-Cdm-374" target="2RhzQoHHJ9l5Md15VYqz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="d5VmrL8W0093dUrV-Cdm-374" value="&lt;div&gt;策略网络更新&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;`\theta_\text{new}\leftarrow\theta_\text{now}+\beta\cdot\nabla_{\theta}mu(s_j;\theta_\text{now})\cdot\nabla_{a}q(s_j,\hat{a}_j;w_{1,now})`&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="-70" width="320" height="80" as="geometry" />
         </mxCell>
@@ -886,6 +889,19 @@
         </mxCell>
         <mxCell id="d5VmrL8W0093dUrV-Cdm-425" value="`\hat{q}_{2,j}`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1480" y="310" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2RhzQoHHJ9l5Md15VYqz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2RhzQoHHJ9l5Md15VYqz-1" target="d5VmrL8W0093dUrV-Cdm-253">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="-240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2RhzQoHHJ9l5Md15VYqz-1" value="&lt;div&gt;目标策略网络更新&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;`\theta_{\text{new}}^{-}&amp;nbsp;\leftarrow \tau\cdot \theta_{\text{new}} + (1 - \tau)\cdot \theta_{\text{now}}^{-}`&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-280" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2RhzQoHHJ9l5Md15VYqz-4" value="`\theta_{\text{new}}^{-}`" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-270" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
