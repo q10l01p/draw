@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T06:54:12.294Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="pZXSjFfUi9HhqbVlE4qk" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-22T07:18:28.496Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="2X942iT0J6aR-Yhnhcwq" version="22.1.11" type="github" pages="3">
   <diagram name="第 1 页" id="EOz1U6gYO-YNxZWnHOJD">
-    <mxGraphModel dx="1728" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="862" dy="1812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
         <mxCell id="d5VmrL8W0093dUrV-Cdm-36" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="140" y="-90" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="d5VmrL8W0093dUrV-Cdm-37" value="&lt;div&gt;策略网络`(\theta_{\text{now}})`&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;`a_{j} = \mu(s_{};\theta_{\text{now}}) + \xi`&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="d5VmrL8W0093dUrV-Cdm-36" vertex="1">
+        <mxCell id="d5VmrL8W0093dUrV-Cdm-37" value="&lt;div&gt;策略网络`(\theta_{\text{now}})`&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;`a_{j} = \mu(s_{};\theta_{\text{now}}) + \epsilon`&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="d5VmrL8W0093dUrV-Cdm-36" vertex="1">
           <mxGeometry width="320" height="120" as="geometry" />
         </mxCell>
         <mxCell id="d5VmrL8W0093dUrV-Cdm-38" value="" style="group" parent="d5VmrL8W0093dUrV-Cdm-36" vertex="1" connectable="0">
@@ -992,7 +992,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zF9fg_Mu7d3ToUCHyj5T" name="第 3 页">
-    <mxGraphModel dx="2440" dy="2367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="1216" dy="2218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
