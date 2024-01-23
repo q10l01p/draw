@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T16:19:20.114Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="ehiDXU2N_mea9MTbXd1C" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T16:35:52.485Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="ohyWaM87_3G7tR-hG75O" version="22.1.21" type="github">
   <diagram name="第 1 页" id="KrnCUdGARDZyMXWLMkpB">
-    <mxGraphModel dx="818" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2789" dy="3741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -372,7 +372,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-233" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="560" y="1860" width="270" height="800" as="geometry" />
+          <mxGeometry x="625" y="1750" width="270" height="800" as="geometry" />
         </mxCell>
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-217" value="&lt;div&gt;BaseTask()&lt;/div&gt;&lt;div&gt;__init__(self, cfg, sim_params, physics_engine, sim_device, headless):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化模拟环境&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
           <mxGeometry y="460" width="90" height="340" as="geometry" />
@@ -422,65 +422,8 @@
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-232" value="如果不是无头模式，则设置键盘快捷键和相机。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
           <mxGeometry x="90" y="720" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-235" value="&lt;div&gt;create_sim(self):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建仿真环境&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="1">
-          <mxGeometry x="960" y="2200" width="200" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-236" value="初始化向上指向的轴，对于Z轴是2，Y轴是1。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="960" y="2279" width="200" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-237" value="创建模拟环境。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="960" y="2360" width="200" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-238" value="根据配置信息中的地形类型，创建相应的地形。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="960" y="2441" width="200" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-240" value="&lt;div&gt;Terrain&lt;/div&gt;&lt;div&gt;__init__(self, cfg: LeggedRobotCfg.terrain, num_robots) -&amp;gt; None:&lt;/div&gt;&lt;div&gt;初始化地形生成对象 &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="2241.5" width="420" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-241" value="&lt;div&gt;cfg:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地形参数配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="2321.5" width="80" height="238.5" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-242" value="存储cfg和机器人数量为对象的属性。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="2321.5" width="171" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-251" value="&lt;div&gt;num_robots:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;机器人数量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="2560" width="80" height="238" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-252" value="根据cfg中的参数生成对应的地形类型。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="2400" width="171" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-253" value="如果地形类型为&quot;none&quot;或者&#39;plane&#39;，则无需生成地形，直接返回。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="2481" width="171" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-254" value="存储地形的长度和宽度为对象的属性。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="2559.5" width="171" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-255" value="计算并存储各地形参数的累积和，作为地形比例。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="2640" width="171" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-256" value="根据子地形的数量，生成和初始化地形原点矩阵。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="2720" width="171" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-257" value="计算并存储每个地形像素的宽度和长度。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1491" y="2321.5" width="171" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-258" value="计算并存储地形的边界大小以及总的列数和行数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1491" y="2400" width="171" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-259" value="初始化地形的高度场为零矩阵。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1491" y="2481" width="171" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-260" value="根据cfg中的参数设定，选择进行课程的地形生成，指定地形的生成，或者随机地形的生成。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1491" y="2559.5" width="171" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-261" value="存储地形的高度采样。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1491" y="2639.5" width="171" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-262" value="如果地形类型是&quot;trimesh&quot;，则调用terrain_utils中的函数将高度场转换为trimesh格式的顶点和三角形数据。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1491" y="2720" width="171" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-283" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1240" y="2840" width="240" height="400" as="geometry" />
+          <mxGeometry x="1320" y="2798" width="240" height="400" as="geometry" />
         </mxCell>
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-264" value="&lt;div&gt;curiculum(self)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;按照课程安排生成地形&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-283">
           <mxGeometry width="240" height="80" as="geometry" />
@@ -524,29 +467,200 @@
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-281" target="iUQOZWKGrvlnFWS8ft6C-286">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-304" value="&lt;div&gt;add_terrain_to_map(self, terrain, row, col):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;把地形添加到地图中指定的位置。&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="3440" width="360" height="80" as="geometry" />
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-324" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1760" y="3441" width="360" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-305" value="&lt;div&gt;terrain:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地形对象，具有长度，宽度和高度信息，可以进行操作。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="3520" width="80" height="160" as="geometry" />
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-304" value="&lt;div&gt;add_terrain_to_map(self, terrain, row, col):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;把地形添加到地图中指定的位置。&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+          <mxGeometry width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-306" value="根据地图的尺寸和配置的比例等参数，创建一个未指定地形的地块。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="3520" width="200" height="80" as="geometry" />
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-305" value="&lt;div&gt;terrain:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地形对象，具有长度，宽度和高度信息，可以进行操作。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+          <mxGeometry y="80" width="80" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-307" value="&lt;div&gt;col:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地图中的列位置，表示将地形添加到哪一列。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="3840" width="80" height="160" as="geometry" />
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-306" value="计算地图中指定位置的开始和结束的坐标，这个区域是将该地形添加的位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+          <mxGeometry x="80" y="80" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-308" value="根据难度计算生成地形的一些参数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="3598.5" width="200" height="80" as="geometry" />
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-307" value="&lt;div&gt;col:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地图中的列位置，表示将地形添加到哪一列。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+          <mxGeometry y="400" width="80" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-309" value="&lt;div&gt;根据choice的值，选择生成不同类型的地形。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例如，&lt;/div&gt;&lt;div&gt;如果choice小于proportions[0]，生成有倾斜的金字塔形地形；&lt;/div&gt;&lt;div&gt;如果大于proportions[0]并且小于proportions[1]，生成带有随机起伏的倾斜金字塔地形；&lt;/div&gt;&lt;div&gt;以此类推，可以生成多种不同类型的地形。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="3679.5" width="200" height="320.5" as="geometry" />
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-308" value="将地形的高度信息添加到地图的对应位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+          <mxGeometry x="80" y="158.5" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-310" value="&lt;div&gt;terrain:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;生成的地形对象。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="3520.75" width="80" height="479.25" as="geometry" />
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-319" value="&lt;div&gt;row:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地图中的行位置，表示将地形添加到哪一行。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+          <mxGeometry y="240.3800000000001" width="80" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-319" value="&lt;div&gt;row:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地图中的行位置，表示将地形添加到哪一行。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="3680.38" width="80" height="160" as="geometry" />
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-320" value="计算环境的原点的位置，这个原点是地形的中心点在地图上的位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+          <mxGeometry x="80" y="238.5" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-321" value="计算原点对应的在地形中的位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+          <mxGeometry x="80" y="320.3800000000001" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-322" value="计算原点位置的高度，这个高度是地形中对应部分的最大高度。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+          <mxGeometry x="80" y="400" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-323" value="存储该环境的原点的位置信息，包括在地图中的(x, y)坐标和对应的高度。 " style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+          <mxGeometry x="80" y="480" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-325" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-282" target="iUQOZWKGrvlnFWS8ft6C-319">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-329" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1120" y="2240" width="200" height="322" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-235" value="&lt;div&gt;create_sim(self):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建仿真环境&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-329">
+          <mxGeometry width="200" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-236" value="初始化向上指向的轴，对于Z轴是2，Y轴是1。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-329">
+          <mxGeometry y="79" width="200" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-237" value="创建模拟环境。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-329">
+          <mxGeometry y="160" width="200" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-238" value="根据配置信息中的地形类型，创建相应的地形。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-329">
+          <mxGeometry y="241" width="200" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-330" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1510" y="2068" width="422" height="558.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-240" value="&lt;div&gt;Terrain&lt;/div&gt;&lt;div&gt;__init__(self, cfg: LeggedRobotCfg.terrain, num_robots) -&amp;gt; None:&lt;/div&gt;&lt;div&gt;初始化地形生成对象 &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-241" value="&lt;div&gt;cfg:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地形参数配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry y="80" width="80" height="238.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-242" value="存储cfg和机器人数量为对象的属性。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry x="80" y="80" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-251" value="&lt;div&gt;num_robots:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;机器人数量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry y="318.5" width="80" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-252" value="根据cfg中的参数生成对应的地形类型。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry x="80" y="158.5" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-253" value="如果地形类型为&quot;none&quot;或者&#39;plane&#39;，则无需生成地形，直接返回。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry x="80" y="239.5" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-254" value="存储地形的长度和宽度为对象的属性。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry x="80" y="318" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-255" value="计算并存储各地形参数的累积和，作为地形比例。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry x="80" y="398.5" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-256" value="根据子地形的数量，生成和初始化地形原点矩阵。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry x="80" y="478.5" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-257" value="计算并存储每个地形像素的宽度和长度。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry x="251" y="80" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-258" value="计算并存储地形的边界大小以及总的列数和行数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry x="251" y="158.5" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-259" value="初始化地形的高度场为零矩阵。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry x="251" y="239.5" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-260" value="根据cfg中的参数设定，选择进行课程的地形生成，指定地形的生成，或者随机地形的生成。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry x="251" y="318" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-261" value="存储地形的高度采样。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry x="251" y="398" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-262" value="如果地形类型是&quot;trimesh&quot;，则调用terrain_utils中的函数将高度场转换为trimesh格式的顶点和三角形数据。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+          <mxGeometry x="251" y="478.5" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-331" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-260" target="iUQOZWKGrvlnFWS8ft6C-264">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1952" y="2426" />
+              <mxPoint x="1952" y="2720" />
+              <mxPoint x="1440" y="2720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-339" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1040" y="2800" width="240" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-338" value="通过调用add_terrain_to_map函数，将生成的子地形添加到地图中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-339">
+          <mxGeometry y="400" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-333" value="&lt;div&gt;selected_terrain(self)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;生成选定的地形&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-339">
+          <mxGeometry width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-334" value="从cfg中获取指定的地形类型，并移除该配置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-339">
+          <mxGeometry y="81.5" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-335" value="根据子地形的数量，生成每一个符合指定类型的子地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-339">
+          <mxGeometry y="161.5" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-336" value="通过调用terrain_utils.SubTerrain，生成地形的子地形框架。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-339">
+          <mxGeometry y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-337" value="通过调用eval函数，运行指定类型的地形生成命令，生成地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-339">
+          <mxGeometry y="320" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-340" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-338" target="iUQOZWKGrvlnFWS8ft6C-319">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1609.9999999999995" y="3550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-231" target="iUQOZWKGrvlnFWS8ft6C-235">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-237" target="iUQOZWKGrvlnFWS8ft6C-251">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1415" y="2441" />
+              <mxPoint x="1415" y="2387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-260" target="iUQOZWKGrvlnFWS8ft6C-333">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1950" y="2426" />
+              <mxPoint x="1950" y="2720" />
+              <mxPoint x="1160" y="2720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-344" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="720" y="2799.5" width="240" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-345" value="&lt;div&gt;randomized_terrain(self)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;随机生成地形 &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-344">
+          <mxGeometry width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-346" value="根据子地形的数量，对每一个子地形进行随机生成。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-344">
+          <mxGeometry y="81.5" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-347" value="通过随机数生成，确定地形的选择和难度。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-344">
+          <mxGeometry y="161.5" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-348" value="通过调用make_terrain函数，生成指定选择和难度的地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-344">
+          <mxGeometry y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-349" value="通过调用add_terrain_to_map函数，将生成的地形添加到地图中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-344">
+          <mxGeometry y="320" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-348" target="iUQOZWKGrvlnFWS8ft6C-286">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="3079" />
+              <mxPoint x="1360" y="3057" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-351" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-349" target="iUQOZWKGrvlnFWS8ft6C-319">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1699.9999999999995" y="3740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-352" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-260" target="iUQOZWKGrvlnFWS8ft6C-345">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="2780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1950" y="2426" />
+              <mxPoint x="1950" y="2720" />
+              <mxPoint x="840" y="2720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
