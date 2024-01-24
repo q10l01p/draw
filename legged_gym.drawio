@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T08:07:19.450Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="D4ugO92aBDqXs8COAYXJ" version="22.1.22" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-24T08:24:49.186Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="eimX7pHTzDYkZ54HyMWW" version="22.1.22" type="github" pages="2">
   <diagram name="参数获取及环境创建" id="KrnCUdGARDZyMXWLMkpB">
     <mxGraphModel dx="2220" dy="2284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1140,7 +1140,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e6TpfpDrfCsMVUpAIdpx" name="PPO配置">
-    <mxGraphModel dx="2789" dy="2914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1148" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1383,6 +1383,72 @@
           <mxGeometry x="61" y="480" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JbxpCbfW8S175GGicWjb-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oXrd98FxXvL3I3U-Mh8x-22" target="JbxpCbfW8S175GGicWjb-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-76" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1440" y="2120" width="261" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-68" value="&lt;div&gt;get_activation(act_name):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;获取激活函数&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="JbxpCbfW8S175GGicWjb-76">
+          <mxGeometry width="260" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-69" value="根据激活函数的名称，返回对应的激活函数对象。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="JbxpCbfW8S175GGicWjb-76">
+          <mxGeometry x="60" y="79" width="130" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-70" value="&lt;div&gt;act_name:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;激活函数的名称&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="JbxpCbfW8S175GGicWjb-76">
+          <mxGeometry y="78.5" width="60" height="111.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-74" value="激活函数" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="JbxpCbfW8S175GGicWjb-76">
+          <mxGeometry x="191" y="78.5" width="70" height="111.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-75" value="&lt;div&gt;rsl_rl/modules/actor_critic.py&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="JbxpCbfW8S175GGicWjb-76">
+          <mxGeometry y="190" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-77" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1100" y="1940" width="321" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-43" value="&lt;div&gt;rsl_rl/modules/actor_critic.py&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ActorCritic(nn.Module):&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry y="440" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-44" value="&lt;div&gt;__init__()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Actor-Critic网络模型，用于强化学习中的策略和价值函数的估计。&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry x="1" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-45" value="&lt;div&gt;num_actor&lt;/div&gt;&lt;div&gt;_obs:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;actor网络的输入维度&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry x="1" y="80" width="59" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-47" value="&lt;div&gt;num_critic&lt;/div&gt;&lt;div&gt;_obs:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;critic网络的输入维度&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry y="200" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-48" value="&lt;div&gt;num_&lt;/div&gt;&lt;div&gt;actions:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;动作空间的维度&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry x="1" y="320" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-49" value="&lt;div&gt;actor_&lt;/div&gt;&lt;div&gt;hidden_&lt;/div&gt;&lt;div&gt;dims: &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;actor网络的隐藏层维度列表&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry x="61" y="320" width="79" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-56" value="&lt;div&gt;初始化actor网络和critic网络，&lt;/div&gt;&lt;div&gt;这两个网络都是多层感知机(MLP)。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry x="60" y="80" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-58" value="&lt;div&gt;critic_&lt;/div&gt;&lt;div&gt;hidden_&lt;/div&gt;&lt;div&gt;dims:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;critic网络的隐藏层维度列表&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry x="259" y="320" width="59" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-60" value="&lt;div&gt;actor网络用于估计策略，&lt;/div&gt;&lt;div&gt;critic网络用于估计价值函数。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry x="61" y="160" width="259" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-61" value="使用正态分布来添加动作噪声。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry x="61" y="240" width="259" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-62" value="&lt;div&gt;activation:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;激活函数的名称&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry x="200" y="370" width="59" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-63" value="&lt;div&gt;kwargs:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;其他参数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry x="202" y="320" width="58" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-64" value="&lt;div&gt;init_&lt;/div&gt;&lt;div&gt;noise_&lt;/div&gt;&lt;div&gt;std:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;动作噪声的初始标准差&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JbxpCbfW8S175GGicWjb-77">
+          <mxGeometry x="140" y="320" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-78" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="JbxpCbfW8S175GGicWjb-56" target="JbxpCbfW8S175GGicWjb-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbxpCbfW8S175GGicWjb-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JbxpCbfW8S175GGicWjb-37" target="JbxpCbfW8S175GGicWjb-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
