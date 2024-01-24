@@ -1,266 +1,266 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T16:35:52.485Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="ohyWaM87_3G7tR-hG75O" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T06:08:50.710Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="n9B7a-ya3Wco4nkCkLEY" version="22.1.22" type="github">
   <diagram name="第 1 页" id="KrnCUdGARDZyMXWLMkpB">
-    <mxGraphModel dx="2789" dy="3741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="8000" dy="4771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-1" value="&lt;div&gt;Train&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-1" value="&lt;div&gt;Train&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry width="80" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-2" target="iUQOZWKGrvlnFWS8ft6C-7">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-2" target="iUQOZWKGrvlnFWS8ft6C-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-2" value="获取命令参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-2" value="获取命令参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="80" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-3" value="环境创建" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-3" value="环境创建" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-4" value="PPO配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-4" value="PPO配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="80" y="200" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-5" value="学习" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-5" value="学习" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="80" y="320" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-18" target="iUQOZWKGrvlnFWS8ft6C-7">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-18" target="iUQOZWKGrvlnFWS8ft6C-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-23" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-23" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="820" y="-160" width="320" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-7" value="&lt;p align=&quot;justify&quot;&gt;get_args()&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-23">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-7" value="&lt;p align=&quot;justify&quot;&gt;get_args()&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-23" vertex="1">
           <mxGeometry width="80" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-10" value="定义需要解析的命令行参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-23">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-10" value="定义需要解析的命令行参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-23" vertex="1">
           <mxGeometry x="80" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-11" value="&lt;div&gt;利用`gymutil.parse_arguments`&lt;/div&gt;&lt;div&gt;进行参数解析&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-23">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-11" value="&lt;div&gt;利用`gymutil.parse_arguments`&lt;/div&gt;&lt;div&gt;进行参数解析&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-23" vertex="1">
           <mxGeometry x="80" y="80" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-12" value="args" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-23">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-12" value="args" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-23" vertex="1">
           <mxGeometry x="240" width="80" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-24" target="iUQOZWKGrvlnFWS8ft6C-44">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-24" target="iUQOZWKGrvlnFWS8ft6C-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1060" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-25" target="iUQOZWKGrvlnFWS8ft6C-63">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-25" target="iUQOZWKGrvlnFWS8ft6C-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-26" target="iUQOZWKGrvlnFWS8ft6C-78">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-26" target="iUQOZWKGrvlnFWS8ft6C-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-34" target="iUQOZWKGrvlnFWS8ft6C-38">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-34" target="iUQOZWKGrvlnFWS8ft6C-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1010" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-41" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-41" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1169" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-32" value="&lt;div&gt;get_task_class()&lt;/div&gt;根据任务名称获取任务类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-41">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-32" value="&lt;div&gt;get_task_class()&lt;/div&gt;根据任务名称获取任务类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-41" vertex="1">
           <mxGeometry width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-38" value="从任务类字典(self.task_classes)中，根据任务名称获取任务类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-41">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-38" value="从任务类字典(self.task_classes)中，根据任务名称获取任务类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-41" vertex="1">
           <mxGeometry y="40" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-39" value="&lt;div&gt;self.&lt;/div&gt;&lt;div&gt;task_classes&lt;/div&gt;&lt;div&gt;[name]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-41">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-39" value="&lt;div&gt;self.&lt;/div&gt;&lt;div&gt;task_classes&lt;/div&gt;&lt;div&gt;[name]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-41" vertex="1">
           <mxGeometry x="120" y="40" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-72" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-72" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1480" y="280" width="360" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-56" value="&lt;div&gt;update_cfg_from_args(env_cfg, cfg_train, args)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;从命令行参数中更新模型配置&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-72">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-56" value="&lt;div&gt;update_cfg_from_args(env_cfg, cfg_train, args)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;从命令行参数中更新模型配置&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-72" vertex="1">
           <mxGeometry width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-61" value="&lt;div&gt;如果提供了环境配置信息和命令行参数，且命令行参数中设定了环境的数量，则更新环境配置信息中的环境数量&lt;/div&gt;&lt;div&gt;。&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-72">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-61" value="&lt;div&gt;如果提供了环境配置信息和命令行参数，且命令行参数中设定了环境的数量，则更新环境配置信息中的环境数量&lt;/div&gt;&lt;div&gt;。&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;" parent="iUQOZWKGrvlnFWS8ft6C-72" vertex="1">
           <mxGeometry x="60" y="80" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-62" value="&lt;div&gt;env_cfg&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;环境的配置信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#b85450;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-72">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-62" value="&lt;div&gt;env_cfg&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;环境的配置信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#b85450;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-72" vertex="1">
           <mxGeometry y="80" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-63" value="&lt;div&gt;cfg_train&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;训练的配置信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#b85450;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-72">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-63" value="&lt;div&gt;cfg_train&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;训练的配置信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#b85450;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-72" vertex="1">
           <mxGeometry y="160" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-64" value="&lt;div&gt;args&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;命令行参数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#b85450;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-72">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-64" value="&lt;div&gt;args&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;命令行参数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#b85450;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-72" vertex="1">
           <mxGeometry y="240" width="60" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-66" value="&lt;div&gt;如果提供了训练配置信息，为以下命令行参数提供了具体值，则更新训练配置信息：&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-72">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-66" value="&lt;div&gt;如果提供了训练配置信息，为以下命令行参数提供了具体值，则更新训练配置信息：&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;" parent="iUQOZWKGrvlnFWS8ft6C-72" vertex="1">
           <mxGeometry x="60" y="160" width="70" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-67" value="&lt;div&gt;&lt;ul&gt;&lt;li align=&quot;left&quot;&gt;随机种子&lt;/li&gt;&lt;li align=&quot;left&quot;&gt;最大迭代次数&lt;/li&gt;&lt;li align=&quot;left&quot;&gt;是否恢复之前的训练&lt;/li&gt;&lt;li align=&quot;left&quot;&gt;实验名称&lt;/li&gt;&lt;li align=&quot;left&quot;&gt;运行名称&lt;/li&gt;&lt;li align=&quot;left&quot;&gt;要加载的运行实验编号&lt;/li&gt;&lt;li align=&quot;left&quot;&gt;要加载的检查点编号&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-72">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-67" value="&lt;div&gt;&lt;ul&gt;&lt;li align=&quot;left&quot;&gt;随机种子&lt;/li&gt;&lt;li align=&quot;left&quot;&gt;最大迭代次数&lt;/li&gt;&lt;li align=&quot;left&quot;&gt;是否恢复之前的训练&lt;/li&gt;&lt;li align=&quot;left&quot;&gt;实验名称&lt;/li&gt;&lt;li align=&quot;left&quot;&gt;运行名称&lt;/li&gt;&lt;li align=&quot;left&quot;&gt;要加载的运行实验编号&lt;/li&gt;&lt;li align=&quot;left&quot;&gt;要加载的检查点编号&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;" parent="iUQOZWKGrvlnFWS8ft6C-72" vertex="1">
           <mxGeometry x="130" y="160" width="150" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-68" value="返回更新后的环境配置信息和训练配置信息。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-72">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-68" value="返回更新后的环境配置信息和训练配置信息。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;" parent="iUQOZWKGrvlnFWS8ft6C-72" vertex="1">
           <mxGeometry x="60" y="320" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-70" value="env_cfg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-72">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-70" value="env_cfg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-72" vertex="1">
           <mxGeometry x="280" y="80" width="80" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-71" value="cfg_train" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-72">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-71" value="cfg_train" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-72" vertex="1">
           <mxGeometry x="280" y="200" width="80" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-82" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-82" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1180" y="560" width="240" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-75" value="&lt;div&gt;set_seed(seed)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;设定随机数生成器的种子&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-82">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-75" value="&lt;div&gt;set_seed(seed)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;设定随机数生成器的种子&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-82" vertex="1">
           <mxGeometry width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-78" value="&lt;div&gt;seed&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;要设置的种子值。如果为-1，则随机生成一个种子&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-82">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-78" value="&lt;div&gt;seed&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;要设置的种子值。如果为-1，则随机生成一个种子&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-82" vertex="1">
           <mxGeometry y="80" width="60" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-79" value="&lt;div&gt;首先检查输入的种子是否为-1。&lt;/div&gt;&lt;div&gt;如果是，则使用Numpy的random模块生成一个0-10000的随机整数作为种子。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-82">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-79" value="&lt;div&gt;首先检查输入的种子是否为-1。&lt;/div&gt;&lt;div&gt;如果是，则使用Numpy的random模块生成一个0-10000的随机整数作为种子。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-82" vertex="1">
           <mxGeometry x="60" y="80" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-80" value="打印出设定的种子值。这是一个好的实践，可以帮助我们记录实验的状态，便于实验的复现。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-82">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-80" value="打印出设定的种子值。这是一个好的实践，可以帮助我们记录实验的状态，便于实验的复现。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-82" vertex="1">
           <mxGeometry x="60" y="160" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-81" value="分别设置Python内置的random模块、Numpy的random模块、PyTorch以及操作系统环境变量&#39;PYTHONHASHSEED&#39;的种子。这确保了程序中所有可能用到随机数的地方都能产生可重复的结果。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-82">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-81" value="分别设置Python内置的random模块、Numpy的random模块、PyTorch以及操作系统环境变量&#39;PYTHONHASHSEED&#39;的种子。这确保了程序中所有可能用到随机数的地方都能产生可重复的结果。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-82" vertex="1">
           <mxGeometry x="60" y="240" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-97" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-97" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1120" y="1560" width="281" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-85" value="&lt;div&gt;class_to_dict(obj)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;将类对象转化为字典&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-97">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-85" value="&lt;div&gt;class_to_dict(obj)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;将类对象转化为字典&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iUQOZWKGrvlnFWS8ft6C-97" vertex="1">
           <mxGeometry width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-86" value="&lt;div&gt;obj:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;要转化的类对象&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-97">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-86" value="&lt;div&gt;obj:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;要转化的类对象&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-97" vertex="1">
           <mxGeometry y="80" width="60" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-87" value="首先判断输入的对象是否具有__dict__属性，如果没有，则直接返回该对象。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-97">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-87" value="首先判断输入的对象是否具有__dict__属性，如果没有，则直接返回该对象。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-97" vertex="1">
           <mxGeometry x="60" y="80" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-88" value="创建一个空字典result，用于存储转化后的结果。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-97">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-88" value="创建一个空字典result，用于存储转化后的结果。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-97" vertex="1">
           <mxGeometry x="60" y="160" width="171" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-89" value="遍历输入对象的所有属性" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-97">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-89" value="遍历输入对象的所有属性" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-97" vertex="1">
           <mxGeometry x="60" y="210" width="31" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-90" value="&lt;div&gt;result:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;转化后的字典&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-97">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-90" value="&lt;div&gt;result:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;转化后的字典&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="iUQOZWKGrvlnFWS8ft6C-97" vertex="1">
           <mxGeometry x="231" y="80" width="50" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-92" value="取出当前遍历到的属性的值，然后判断这个值的类型。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-97">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-92" value="取出当前遍历到的属性的值，然后判断这个值的类型。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-97" vertex="1">
           <mxGeometry x="91" y="251" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-93" value="如果属性名称以&#39;_&#39;开头，则跳过该属性。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-97">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-93" value="如果属性名称以&#39;_&#39;开头，则跳过该属性。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-97" vertex="1">
           <mxGeometry x="91" y="210" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-94" value="如果是列表，则对列表中的每一项进行递归转化，并将结果保存到一个新的列表element中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-97">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-94" value="如果是列表，则对列表中的每一项进行递归转化，并将结果保存到一个新的列表element中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-97" vertex="1">
           <mxGeometry x="91" y="301" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-95" value="如果不是列表，则直接对这个值进行递归转化，并赋值给element。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-97">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-95" value="如果不是列表，则直接对这个值进行递归转化，并赋值给element。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-97" vertex="1">
           <mxGeometry x="91" y="371" width="140" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-96" value="将转化后的结果添加到字典result中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-97">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-96" value="将转化后的结果添加到字典result中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-97" vertex="1">
           <mxGeometry x="91" y="430" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-118" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-118" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1480" y="1200" width="320" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-101" value="&lt;div&gt;parse_sim_params(args, cfg)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;解析模拟器的参数&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-118">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-101" value="&lt;div&gt;parse_sim_params(args, cfg)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;解析模拟器的参数&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iUQOZWKGrvlnFWS8ft6C-118" vertex="1">
           <mxGeometry width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-102" value="&lt;div&gt;args:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;命令行参数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-118">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-102" value="&lt;div&gt;args:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;命令行参数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-118" vertex="1">
           <mxGeometry y="80" width="60" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-103" value="首先创建一个空的SimParams对象，用于存储模拟器参数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-118">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-103" value="首先创建一个空的SimParams对象，用于存储模拟器参数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-118" vertex="1">
           <mxGeometry x="60" y="80" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-104" value="从命令行参数中获取物理引擎类型。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-118">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-104" value="从命令行参数中获取物理引擎类型。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-118" vertex="1">
           <mxGeometry x="60" y="160" width="60" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-106" value="&lt;div&gt;sim_params:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;模拟器参数对象&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-118">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-106" value="&lt;div&gt;sim_params:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;模拟器参数对象&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="iUQOZWKGrvlnFWS8ft6C-118" vertex="1">
           <mxGeometry x="240" y="80" width="80" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-112" value="&lt;div&gt;cfg &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;配置信息，通常是一个字典&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-118">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-112" value="&lt;div&gt;cfg &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;配置信息，通常是一个字典&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-118" vertex="1">
           <mxGeometry y="320" width="60" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-113" value="如果物理引擎是Flex，但GPU设备不是CPU，则打印出警告信息；" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-118">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-113" value="如果物理引擎是Flex，但GPU设备不是CPU，则打印出警告信息；" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-118" vertex="1">
           <mxGeometry x="120" y="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-114" value="如果物理引擎是PhysX，则从命令行参数中获取是否使用GPU和子场景的数量，并将它们设置到sim_params中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-118">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-114" value="如果物理引擎是PhysX，则从命令行参数中获取是否使用GPU和子场景的数量，并将它们设置到sim_params中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-118" vertex="1">
           <mxGeometry x="120" y="240" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-115" value="从命令行参数中获取是否使用GPU管道，并将它设置到sim_params中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-118">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-115" value="从命令行参数中获取是否使用GPU管道，并将它设置到sim_params中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-118" vertex="1">
           <mxGeometry x="60" y="360" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-116" value="如果在配置信息中提供了模拟器的参数，则解析这些参数，并更新sim_params对象。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-118">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-116" value="如果在配置信息中提供了模拟器的参数，则解析这些参数，并更新sim_params对象。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-118" vertex="1">
           <mxGeometry x="60" y="420" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-117" value="如果命令行参数中设定了PhysX的线程数量，则将这个值设定到sim_params中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-118">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-117" value="如果命令行参数中设定了PhysX的线程数量，则将这个值设定到sim_params中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-118" vertex="1">
           <mxGeometry x="60" y="480" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-126" value="" style="group;rotation=90;" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-126" value="" style="group;rotation=90;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1169" y="200" width="280" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-20" value="&lt;div&gt;get_cfgs(self, name)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;根据任务名称获取环境和训练的配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-126">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-20" value="&lt;div&gt;get_cfgs(self, name)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;根据任务名称获取环境和训练的配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-126" vertex="1">
           <mxGeometry width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-44" value="&lt;div&gt;name:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;任务&lt;/div&gt;&lt;div&gt;名称&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#b85450;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-126">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-44" value="&lt;div&gt;name:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;任务&lt;/div&gt;&lt;div&gt;名称&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#b85450;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-126" vertex="1">
           <mxGeometry y="80" width="60" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-45" value="根据任务名称从训练配置字典(self.train_cfgs)中获取训练配置。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-126">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-45" value="根据任务名称从训练配置字典(self.train_cfgs)中获取训练配置。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-126" vertex="1">
           <mxGeometry x="60" y="80" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-46" value="根据任务名称从环境配置字典(self.env_cfgs)中获取环境配置。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-126">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-46" value="根据任务名称从环境配置字典(self.env_cfgs)中获取环境配置。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-126" vertex="1">
           <mxGeometry x="60" y="160" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-47" value="更新环境配置中的seed值，设为训练配置的seed值。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-126">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-47" value="更新环境配置中的seed值，设为训练配置的seed值。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-126" vertex="1">
           <mxGeometry x="60" y="240" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-49" value="env_cfg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-126">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-49" value="env_cfg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-126" vertex="1">
           <mxGeometry x="200" y="80" width="80" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-50" value="train_cfg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-126">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-50" value="train_cfg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-126" vertex="1">
           <mxGeometry x="200" y="200" width="80" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-17" value="make_env()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-17" value="make_env()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="1" vertex="1">
           <mxGeometry x="570" y="200" width="80" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-18" value="如果没有传递args参数，则获取命令行参数。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-18" value="如果没有传递args参数，则获取命令行参数。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="200" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-19" value="检查是否有注册的名称为&#39;name&#39;的环境。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-19" value="检查是否有注册的名称为&#39;name&#39;的环境。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="280" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-24" value="如果没有指定环境配置(env_cfg)，则加载对应名称任务的配置文件。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-24" value="如果没有指定环境配置(env_cfg)，则加载对应名称任务的配置文件。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="360" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-25" value="从args中更新环境配置(如果指定的话)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-25" value="从args中更新环境配置(如果指定的话)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="440" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-26" value="设置种子数值。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-26" value="设置种子数值。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="520" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-27" value="解析模拟器参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-27" value="解析模拟器参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="600" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-34" value="如果对应名称的环境已注册，则获取该任务类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-34" value="如果对应名称的环境已注册，则获取该任务类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="280" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-35" value="否则抛出 ValueError 异常" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-35" value="否则抛出 ValueError 异常" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="330" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-119" target="iUQOZWKGrvlnFWS8ft6C-147">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-119" target="iUQOZWKGrvlnFWS8ft6C-147" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-119" value="根据配置信息、模拟器参数等创建环境。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-119" value="根据配置信息、模拟器参数等创建环境。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="680" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-122" value="&lt;div&gt;env&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;返回创建的环境&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-122" value="&lt;div&gt;env&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;返回创建的环境&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="1" vertex="1">
           <mxGeometry x="570" y="120" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-123" value="&lt;div&gt;env_cfg&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;返回创建的环境的配置文件&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-123" value="&lt;div&gt;env_cfg&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;返回创建的环境的配置文件&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="1" vertex="1">
           <mxGeometry x="570" y="760" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-129" target="iUQOZWKGrvlnFWS8ft6C-86">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-129" target="iUQOZWKGrvlnFWS8ft6C-86" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-129" value="首先转换为字典" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-129" value="首先转换为字典" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
           <mxGeometry x="720" y="600" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-130" target="iUQOZWKGrvlnFWS8ft6C-112">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-130" target="iUQOZWKGrvlnFWS8ft6C-112" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1310" y="660" />
@@ -268,305 +268,305 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-130" value="解析参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-130" value="解析参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
           <mxGeometry x="720" y="640" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-153" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-153" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="320" y="1120" width="250" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-135" value="&lt;div&gt;LeggedRobot(BaseTask)&lt;/div&gt;&lt;div&gt;__init__(self, cfg: LeggedRobotCfg, sim_params, physics_engine, sim_device, headless):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化LeggedRobot类的实例&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-153">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-135" value="&lt;div&gt;LeggedRobot(BaseTask)&lt;/div&gt;&lt;div&gt;__init__(self, cfg: LeggedRobotCfg, sim_params, physics_engine, sim_device, headless):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化LeggedRobot类的实例&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iUQOZWKGrvlnFWS8ft6C-153" vertex="1">
           <mxGeometry x="70" y="480" width="180" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-136" value="&lt;div&gt;cfg:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Legged&lt;/div&gt;&lt;div&gt;RobotCfg&lt;/div&gt;&lt;div&gt;类型，配置文件，用于指定环境相关参数。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-153">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-136" value="&lt;div&gt;cfg:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Legged&lt;/div&gt;&lt;div&gt;RobotCfg&lt;/div&gt;&lt;div&gt;类型，配置文件，用于指定环境相关参数。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="iUQOZWKGrvlnFWS8ft6C-153" vertex="1">
           <mxGeometry width="70" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-137" value="保存传入的参数到对应的类属性中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-153">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-137" value="保存传入的参数到对应的类属性中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-153" vertex="1">
           <mxGeometry x="70" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-140" value="&lt;div&gt;sim_&lt;/div&gt;&lt;div&gt;params:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;gymapi.&lt;/div&gt;&lt;div&gt;SimParams类型，模拟参数。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-153">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-140" value="&lt;div&gt;sim_&lt;/div&gt;&lt;div&gt;params:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;gymapi.&lt;/div&gt;&lt;div&gt;SimParams类型，模拟参数。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-153" vertex="1">
           <mxGeometry y="140" width="70" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-143" value="调用_parse_cfg方法解析配置文件。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-153">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-143" value="调用_parse_cfg方法解析配置文件。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-153" vertex="1">
           <mxGeometry x="70" y="80" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-144" value="调用父类的初始化方法进行初始化，传入相应参数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-153">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-144" value="调用父类的初始化方法进行初始化，传入相应参数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-153" vertex="1">
           <mxGeometry x="70" y="160" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-145" value="如果headless为False（即需要渲染），则会设置摄像机的位置和目标视点。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-153">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-145" value="如果headless为False（即需要渲染），则会设置摄像机的位置和目标视点。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-153" vertex="1">
           <mxGeometry x="70" y="240" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-147" value="&lt;div&gt;physics&lt;/div&gt;&lt;div&gt;_engine:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;gymapi.&lt;/div&gt;&lt;div&gt;SimType类型，物理引擎类型，必须是PhysX。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-153">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-147" value="&lt;div&gt;physics&lt;/div&gt;&lt;div&gt;_engine:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;gymapi.&lt;/div&gt;&lt;div&gt;SimType类型，物理引擎类型，必须是PhysX。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-153" vertex="1">
           <mxGeometry y="259" width="70" height="141" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-148" value="&lt;div&gt;sim_device:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;字符串，表示使用的设备类型，可以是&#39;cuda&#39;或&#39;cpu&#39;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-153">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-148" value="&lt;div&gt;sim_device:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;字符串，表示使用的设备类型，可以是&#39;cuda&#39;或&#39;cpu&#39;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-153" vertex="1">
           <mxGeometry y="400" width="70" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-149" value="&lt;div&gt;headless：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;布尔型，如果为True，则运行模拟过程不进行渲染。 &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-153">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-149" value="&lt;div&gt;headless：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;布尔型，如果为True，则运行模拟过程不进行渲染。 &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-153" vertex="1">
           <mxGeometry y="520" width="70" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-150" value="调用 _init_buffers方法初始化存储数据的缓冲区。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-153">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-150" value="调用 _init_buffers方法初始化存储数据的缓冲区。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-153" vertex="1">
           <mxGeometry x="70" y="320" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-151" value="调用 _prepare_reward_function方法初始化奖励函数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-153">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-151" value="调用 _prepare_reward_function方法初始化奖励函数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-153" vertex="1">
           <mxGeometry x="70" y="400" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-171" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-171" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-192" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-192" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="680" y="980" width="240" height="439" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-168" value="&lt;div&gt;_parse_cfg(self, cfg)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;解析配置信息&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-192">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-168" value="&lt;div&gt;_parse_cfg(self, cfg)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;解析配置信息&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-192" vertex="1">
           <mxGeometry width="240" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-169" value="根据配置信息中的抽取控制和模拟参数，计算时间间隔。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-192">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-169" value="根据配置信息中的抽取控制和模拟参数，计算时间间隔。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-192" vertex="1">
           <mxGeometry x="70" y="79" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-186" value="&lt;div&gt;cfg:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;字典形式的配置信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-192">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-186" value="&lt;div&gt;cfg:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;字典形式的配置信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="iUQOZWKGrvlnFWS8ft6C-192" vertex="1">
           <mxGeometry y="78.5" width="70" height="360.5" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-187" value="从配置信息中获取观察的缩放范围。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-192">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-187" value="从配置信息中获取观察的缩放范围。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-192" vertex="1">
           <mxGeometry x="70" y="139" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-188" value="将配置信息中的奖励范围从类转换为字典形式。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-192">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-188" value="将配置信息中的奖励范围从类转换为字典形式。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-192" vertex="1">
           <mxGeometry x="70" y="199" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-189" value="将配置信息中的命令范围从类转换为字典形式。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-192">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-189" value="将配置信息中的命令范围从类转换为字典形式。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-192" vertex="1">
           <mxGeometry x="70" y="259" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-190" value="如果地形网格类型不是&#39;heightfield&#39;或&#39;trimesh&#39;，则关闭地形的课程设置。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-192">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-190" value="如果地形网格类型不是&#39;heightfield&#39;或&#39;trimesh&#39;，则关闭地形的课程设置。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-192" vertex="1">
           <mxGeometry x="70" y="319" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-191" value="从配置信息中获取和计算最大的剧集长度和剧集时间。 " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-192">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-191" value="从配置信息中获取和计算最大的剧集长度和剧集时间。 " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-192" vertex="1">
           <mxGeometry x="70" y="379" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-143" target="iUQOZWKGrvlnFWS8ft6C-186">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-143" target="iUQOZWKGrvlnFWS8ft6C-186" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-209" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-209" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1080" y="1200" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-201" value="&lt;div&gt;obs_scales&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;观察值尺度类&lt;/div&gt;&lt;div&gt;根据不同的观察值设定不同的尺度。&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-209">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-201" value="&lt;div&gt;obs_scales&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;观察值尺度类&lt;/div&gt;&lt;div&gt;根据不同的观察值设定不同的尺度。&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-209" vertex="1">
           <mxGeometry width="200" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-202" value="&lt;div align=&quot;center&quot;&gt;lin_vel = 2.0&amp;nbsp; # 线速度的尺度&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&amp;nbsp;ang_vel = 0.25&amp;nbsp; # 角速度的尺度&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;dof_pos = 1.0&amp;nbsp; # DOF位置的尺度&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;dof_vel = 0.05&amp;nbsp; # DOF速度的尺度&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;height_measurements = 5.0&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;# 高度测量的尺度&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-209">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-202" value="&lt;div align=&quot;center&quot;&gt;lin_vel = 2.0&amp;nbsp; # 线速度的尺度&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&amp;nbsp;ang_vel = 0.25&amp;nbsp; # 角速度的尺度&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;dof_pos = 1.0&amp;nbsp; # DOF位置的尺度&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;dof_vel = 0.05&amp;nbsp; # DOF速度的尺度&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;height_measurements = 5.0&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;# 高度测量的尺度&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" parent="iUQOZWKGrvlnFWS8ft6C-209" vertex="1">
           <mxGeometry y="79" width="200" height="121" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-187" target="iUQOZWKGrvlnFWS8ft6C-201">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-187" target="iUQOZWKGrvlnFWS8ft6C-201" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-188" target="iUQOZWKGrvlnFWS8ft6C-86">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-188" target="iUQOZWKGrvlnFWS8ft6C-86" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-213" value="self.cfg.rewards.scales" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iUQOZWKGrvlnFWS8ft6C-212">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-213" value="self.cfg.rewards.scales" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iUQOZWKGrvlnFWS8ft6C-212" vertex="1" connectable="0">
           <mxGeometry x="-0.8347" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-189" target="iUQOZWKGrvlnFWS8ft6C-86">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-189" target="iUQOZWKGrvlnFWS8ft6C-86" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-215" value="self.cfg.commands.ranges" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iUQOZWKGrvlnFWS8ft6C-214">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-215" value="self.cfg.commands.ranges" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iUQOZWKGrvlnFWS8ft6C-214" vertex="1" connectable="0">
           <mxGeometry x="-0.8392" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-233" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-233" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="625" y="1750" width="270" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-217" value="&lt;div&gt;BaseTask()&lt;/div&gt;&lt;div&gt;__init__(self, cfg, sim_params, physics_engine, sim_device, headless):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化模拟环境&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-217" value="&lt;div&gt;BaseTask()&lt;/div&gt;&lt;div&gt;__init__(self, cfg, sim_params, physics_engine, sim_device, headless):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化模拟环境&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry y="460" width="90" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-218" value="&lt;div&gt;cfg:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;配置信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-218" value="&lt;div&gt;cfg:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;配置信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry width="90" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-219" value="获取gym接口。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-219" value="获取gym接口。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry x="90" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-220" value="&lt;div&gt;sim_&lt;/div&gt;&lt;div&gt;params:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;模拟参数。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-220" value="&lt;div&gt;sim_&lt;/div&gt;&lt;div&gt;params:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;模拟参数。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry y="100" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-221" value="设置模拟参数、物理引擎、模拟设备和无头模式。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-221" value="设置模拟参数、物理引擎、模拟设备和无头模式。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry x="90" y="80" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-222" value="解析设备字符串，获取设备类型和设备ID。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-222" value="解析设备字符串，获取设备类型和设备ID。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry x="90" y="160" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-223" value="如果模拟设备是GPU并且使用GPU管道，则设备为模拟设备，否则设备为CPU。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-223" value="如果模拟设备是GPU并且使用GPU管道，则设备为模拟设备，否则设备为CPU。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry x="90" y="240" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-224" value="&lt;div&gt;physics&lt;/div&gt;&lt;div&gt;_engine:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;物理引擎类型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-224" value="&lt;div&gt;physics&lt;/div&gt;&lt;div&gt;_engine:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;物理引擎类型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry y="179" width="90" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-225" value="&lt;div&gt;sim_device:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;设备类型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-225" value="&lt;div&gt;sim_device:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;设备类型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry y="260" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-226" value="&lt;div&gt;headless：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;布尔型，如果为True，则运行模拟过程不进行渲染。 &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-226" value="&lt;div&gt;headless：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;布尔型，如果为True，则运行模拟过程不进行渲染。 &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry y="340" width="90" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-227" value="如果无头模式为真，则图形设备ID为-1，否则为模拟设备ID。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-227" value="如果无头模式为真，则图形设备ID为-1，否则为模拟设备ID。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry x="90" y="320" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-228" value="设置环境数量、观察数量、特权观察数量和动作数量。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-228" value="设置环境数量、观察数量、特权观察数量和动作数量。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry x="90" y="400" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-229" value="设置PyTorch JIT的优化标志。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-229" value="设置PyTorch JIT的优化标志。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry x="90" y="480" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-230" value="分配缓冲区。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-230" value="分配缓冲区。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry x="90" y="560" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-231" value="创建模拟环境、模拟器和查看器。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-231" value="创建模拟环境、模拟器和查看器。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry x="90" y="640" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-232" value="如果不是无头模式，则设置键盘快捷键和相机。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-233">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-232" value="如果不是无头模式，则设置键盘快捷键和相机。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-233" vertex="1">
           <mxGeometry x="90" y="720" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-283" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-283" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1320" y="2798" width="240" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-264" value="&lt;div&gt;curiculum(self)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;按照课程安排生成地形&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-283">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-264" value="&lt;div&gt;curiculum(self)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;按照课程安排生成地形&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iUQOZWKGrvlnFWS8ft6C-283" vertex="1">
           <mxGeometry width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-279" value="根据网格的行列数，生成每一个子地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-283">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-279" value="根据网格的行列数，生成每一个子地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-283" vertex="1">
           <mxGeometry y="81.5" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-280" value="计算并确定地形的选择和难度，依据是子地形在网格中的位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-283">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-280" value="计算并确定地形的选择和难度，依据是子地形在网格中的位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-283" vertex="1">
           <mxGeometry y="161.5" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-281" value="通过调用make_terrain函数，生成指定选择和难度的地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-283">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-281" value="通过调用make_terrain函数，生成指定选择和难度的地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-283" vertex="1">
           <mxGeometry y="240" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-282" value="通过调用add_terrain_to_map函数，将生成的地形添加到地图中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-283">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-282" value="通过调用add_terrain_to_map函数，将生成的地形添加到地图中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-283" vertex="1">
           <mxGeometry y="320" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-301" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-301" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1760" y="2798" width="360" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-285" value="&lt;div&gt;&amp;nbsp;make_terrain(self, choice, difficulty):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;根据给定的choice和difficulty，生成地形。&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-301">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-285" value="&lt;div&gt;&amp;nbsp;make_terrain(self, choice, difficulty):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;根据给定的choice和difficulty，生成地形。&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iUQOZWKGrvlnFWS8ft6C-301" vertex="1">
           <mxGeometry width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-286" value="&lt;div&gt;choice:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;用于选择生成何种地形的参数，一般是一个某范围内的随机数。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-301">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-286" value="&lt;div&gt;choice:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;用于选择生成何种地形的参数，一般是一个某范围内的随机数。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-301" vertex="1">
           <mxGeometry y="80" width="80" height="238.5" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-287" value="根据地图的尺寸和配置的比例等参数，创建一个未指定地形的地块。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-301">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-287" value="根据地图的尺寸和配置的比例等参数，创建一个未指定地形的地块。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-301" vertex="1">
           <mxGeometry x="80" y="80" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-288" value="&lt;div&gt;difficulty：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;难度参数，影响地形的生成方式和地形的难度。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-301">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-288" value="&lt;div&gt;difficulty：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;难度参数，影响地形的生成方式和地形的难度。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-301" vertex="1">
           <mxGeometry y="318.5" width="80" height="238" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-289" value="根据难度计算生成地形的一些参数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-301">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-289" value="根据难度计算生成地形的一些参数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-301" vertex="1">
           <mxGeometry x="80" y="158.5" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-290" value="&lt;div&gt;根据choice的值，选择生成不同类型的地形。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例如，&lt;/div&gt;&lt;div&gt;如果choice小于proportions[0]，生成有倾斜的金字塔形地形；&lt;/div&gt;&lt;div&gt;如果大于proportions[0]并且小于proportions[1]，生成带有随机起伏的倾斜金字塔地形；&lt;/div&gt;&lt;div&gt;以此类推，可以生成多种不同类型的地形。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-301">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-290" value="&lt;div&gt;根据choice的值，选择生成不同类型的地形。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;例如，&lt;/div&gt;&lt;div&gt;如果choice小于proportions[0]，生成有倾斜的金字塔形地形；&lt;/div&gt;&lt;div&gt;如果大于proportions[0]并且小于proportions[1]，生成带有随机起伏的倾斜金字塔地形；&lt;/div&gt;&lt;div&gt;以此类推，可以生成多种不同类型的地形。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-301" vertex="1">
           <mxGeometry x="80" y="239.5" width="200" height="320.5" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-300" value="&lt;div&gt;terrain:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;生成的地形对象。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-301">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-300" value="&lt;div&gt;terrain:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;生成的地形对象。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="iUQOZWKGrvlnFWS8ft6C-301" vertex="1">
           <mxGeometry x="280" y="80.75" width="80" height="479.25" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-281" target="iUQOZWKGrvlnFWS8ft6C-286">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-281" target="iUQOZWKGrvlnFWS8ft6C-286" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-324" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-324" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1760" y="3441" width="360" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-304" value="&lt;div&gt;add_terrain_to_map(self, terrain, row, col):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;把地形添加到地图中指定的位置。&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-304" value="&lt;div&gt;add_terrain_to_map(self, terrain, row, col):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;把地形添加到地图中指定的位置。&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iUQOZWKGrvlnFWS8ft6C-324" vertex="1">
           <mxGeometry width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-305" value="&lt;div&gt;terrain:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地形对象，具有长度，宽度和高度信息，可以进行操作。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-305" value="&lt;div&gt;terrain:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地形对象，具有长度，宽度和高度信息，可以进行操作。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-324" vertex="1">
           <mxGeometry y="80" width="80" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-306" value="计算地图中指定位置的开始和结束的坐标，这个区域是将该地形添加的位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-306" value="计算地图中指定位置的开始和结束的坐标，这个区域是将该地形添加的位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-324" vertex="1">
           <mxGeometry x="80" y="80" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-307" value="&lt;div&gt;col:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地图中的列位置，表示将地形添加到哪一列。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-307" value="&lt;div&gt;col:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地图中的列位置，表示将地形添加到哪一列。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-324" vertex="1">
           <mxGeometry y="400" width="80" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-308" value="将地形的高度信息添加到地图的对应位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-308" value="将地形的高度信息添加到地图的对应位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-324" vertex="1">
           <mxGeometry x="80" y="158.5" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-319" value="&lt;div&gt;row:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地图中的行位置，表示将地形添加到哪一行。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-319" value="&lt;div&gt;row:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地图中的行位置，表示将地形添加到哪一行。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-324" vertex="1">
           <mxGeometry y="240.3800000000001" width="80" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-320" value="计算环境的原点的位置，这个原点是地形的中心点在地图上的位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-320" value="计算环境的原点的位置，这个原点是地形的中心点在地图上的位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-324" vertex="1">
           <mxGeometry x="80" y="238.5" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-321" value="计算原点对应的在地形中的位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-321" value="计算原点对应的在地形中的位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-324" vertex="1">
           <mxGeometry x="80" y="320.3800000000001" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-322" value="计算原点位置的高度，这个高度是地形中对应部分的最大高度。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-322" value="计算原点位置的高度，这个高度是地形中对应部分的最大高度。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-324" vertex="1">
           <mxGeometry x="80" y="400" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-323" value="存储该环境的原点的位置信息，包括在地图中的(x, y)坐标和对应的高度。 " style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-324">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-323" value="存储该环境的原点的位置信息，包括在地图中的(x, y)坐标和对应的高度。 " style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-324" vertex="1">
           <mxGeometry x="80" y="480" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-325" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-282" target="iUQOZWKGrvlnFWS8ft6C-319">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-325" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-282" target="iUQOZWKGrvlnFWS8ft6C-319" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-329" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-329" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1120" y="2240" width="200" height="322" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-235" value="&lt;div&gt;create_sim(self):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建仿真环境&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-329">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-235" value="&lt;div&gt;create_sim(self):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建仿真环境&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-329" vertex="1">
           <mxGeometry width="200" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-236" value="初始化向上指向的轴，对于Z轴是2，Y轴是1。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-329">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-236" value="初始化向上指向的轴，对于Z轴是2，Y轴是1。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" parent="iUQOZWKGrvlnFWS8ft6C-329" vertex="1">
           <mxGeometry y="79" width="200" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-237" value="创建模拟环境。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-329">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-237" value="创建模拟环境。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" parent="iUQOZWKGrvlnFWS8ft6C-329" vertex="1">
           <mxGeometry y="160" width="200" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-238" value="根据配置信息中的地形类型，创建相应的地形。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-329">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-238" value="根据配置信息中的地形类型，创建相应的地形。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" parent="iUQOZWKGrvlnFWS8ft6C-329" vertex="1">
           <mxGeometry y="241" width="200" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-330" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-330" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1510" y="2068" width="422" height="558.5" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-240" value="&lt;div&gt;Terrain&lt;/div&gt;&lt;div&gt;__init__(self, cfg: LeggedRobotCfg.terrain, num_robots) -&amp;gt; None:&lt;/div&gt;&lt;div&gt;初始化地形生成对象 &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-240" value="&lt;div&gt;Terrain&lt;/div&gt;&lt;div&gt;__init__(self, cfg: LeggedRobotCfg.terrain, num_robots) -&amp;gt; None:&lt;/div&gt;&lt;div&gt;初始化地形生成对象 &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry width="420" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-241" value="&lt;div&gt;cfg:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地形参数配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-241" value="&lt;div&gt;cfg:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;地形参数配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry y="80" width="80" height="238.5" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-242" value="存储cfg和机器人数量为对象的属性。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-242" value="存储cfg和机器人数量为对象的属性。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry x="80" y="80" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-251" value="&lt;div&gt;num_robots:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;机器人数量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-251" value="&lt;div&gt;num_robots:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;机器人数量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry y="318.5" width="80" height="238" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-252" value="根据cfg中的参数生成对应的地形类型。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-252" value="根据cfg中的参数生成对应的地形类型。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry x="80" y="158.5" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-253" value="如果地形类型为&quot;none&quot;或者&#39;plane&#39;，则无需生成地形，直接返回。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-253" value="如果地形类型为&quot;none&quot;或者&#39;plane&#39;，则无需生成地形，直接返回。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry x="80" y="239.5" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-254" value="存储地形的长度和宽度为对象的属性。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-254" value="存储地形的长度和宽度为对象的属性。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry x="80" y="318" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-255" value="计算并存储各地形参数的累积和，作为地形比例。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-255" value="计算并存储各地形参数的累积和，作为地形比例。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry x="80" y="398.5" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-256" value="根据子地形的数量，生成和初始化地形原点矩阵。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-256" value="根据子地形的数量，生成和初始化地形原点矩阵。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry x="80" y="478.5" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-257" value="计算并存储每个地形像素的宽度和长度。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-257" value="计算并存储每个地形像素的宽度和长度。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry x="251" y="80" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-258" value="计算并存储地形的边界大小以及总的列数和行数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-258" value="计算并存储地形的边界大小以及总的列数和行数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry x="251" y="158.5" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-259" value="初始化地形的高度场为零矩阵。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-259" value="初始化地形的高度场为零矩阵。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry x="251" y="239.5" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-260" value="根据cfg中的参数设定，选择进行课程的地形生成，指定地形的生成，或者随机地形的生成。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-260" value="根据cfg中的参数设定，选择进行课程的地形生成，指定地形的生成，或者随机地形的生成。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry x="251" y="318" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-261" value="存储地形的高度采样。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-261" value="存储地形的高度采样。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry x="251" y="398" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-262" value="如果地形类型是&quot;trimesh&quot;，则调用terrain_utils中的函数将高度场转换为trimesh格式的顶点和三角形数据。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-330">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-262" value="如果地形类型是&quot;trimesh&quot;，则调用terrain_utils中的函数将高度场转换为trimesh格式的顶点和三角形数据。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-330" vertex="1">
           <mxGeometry x="251" y="478.5" width="171" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-331" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-260" target="iUQOZWKGrvlnFWS8ft6C-264">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-331" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-260" target="iUQOZWKGrvlnFWS8ft6C-264" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1952" y="2426" />
@@ -575,44 +575,36 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-339" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-339" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1040" y="2800" width="240" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-338" value="通过调用add_terrain_to_map函数，将生成的子地形添加到地图中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-339">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-338" value="通过调用add_terrain_to_map函数，将生成的子地形添加到地图中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-339" vertex="1">
           <mxGeometry y="400" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-333" value="&lt;div&gt;selected_terrain(self)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;生成选定的地形&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-339">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-333" value="&lt;div&gt;selected_terrain(self)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;生成选定的地形&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iUQOZWKGrvlnFWS8ft6C-339" vertex="1">
           <mxGeometry width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-334" value="从cfg中获取指定的地形类型，并移除该配置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-339">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-334" value="从cfg中获取指定的地形类型，并移除该配置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-339" vertex="1">
           <mxGeometry y="81.5" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-335" value="根据子地形的数量，生成每一个符合指定类型的子地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-339">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-335" value="根据子地形的数量，生成每一个符合指定类型的子地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-339" vertex="1">
           <mxGeometry y="161.5" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-336" value="通过调用terrain_utils.SubTerrain，生成地形的子地形框架。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-339">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-336" value="通过调用terrain_utils.SubTerrain，生成地形的子地形框架。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-339" vertex="1">
           <mxGeometry y="240" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-337" value="通过调用eval函数，运行指定类型的地形生成命令，生成地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-339">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-337" value="通过调用eval函数，运行指定类型的地形生成命令，生成地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-339" vertex="1">
           <mxGeometry y="320" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-340" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-338" target="iUQOZWKGrvlnFWS8ft6C-319">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-340" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-338" target="iUQOZWKGrvlnFWS8ft6C-319" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1609.9999999999995" y="3550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-231" target="iUQOZWKGrvlnFWS8ft6C-235">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-231" target="iUQOZWKGrvlnFWS8ft6C-235" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-237" target="iUQOZWKGrvlnFWS8ft6C-251">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1415" y="2441" />
-              <mxPoint x="1415" y="2387" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-260" target="iUQOZWKGrvlnFWS8ft6C-333">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-260" target="iUQOZWKGrvlnFWS8ft6C-333" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1950" y="2426" />
@@ -621,25 +613,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-344" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-344" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="720" y="2799.5" width="240" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-345" value="&lt;div&gt;randomized_terrain(self)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;随机生成地形 &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-344">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-345" value="&lt;div&gt;randomized_terrain(self)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;随机生成地形 &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="iUQOZWKGrvlnFWS8ft6C-344" vertex="1">
           <mxGeometry width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-346" value="根据子地形的数量，对每一个子地形进行随机生成。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-344">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-346" value="根据子地形的数量，对每一个子地形进行随机生成。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-344" vertex="1">
           <mxGeometry y="81.5" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-347" value="通过随机数生成，确定地形的选择和难度。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-344">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-347" value="通过随机数生成，确定地形的选择和难度。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-344" vertex="1">
           <mxGeometry y="161.5" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-348" value="通过调用make_terrain函数，生成指定选择和难度的地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-344">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-348" value="通过调用make_terrain函数，生成指定选择和难度的地形。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-344" vertex="1">
           <mxGeometry y="240" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-349" value="通过调用add_terrain_to_map函数，将生成的地形添加到地图中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iUQOZWKGrvlnFWS8ft6C-344">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-349" value="通过调用add_terrain_to_map函数，将生成的地形添加到地图中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="iUQOZWKGrvlnFWS8ft6C-344" vertex="1">
           <mxGeometry y="320" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-348" target="iUQOZWKGrvlnFWS8ft6C-286">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-348" target="iUQOZWKGrvlnFWS8ft6C-286" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1360" y="3079" />
@@ -647,12 +639,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-351" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-349" target="iUQOZWKGrvlnFWS8ft6C-319">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-351" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-349" target="iUQOZWKGrvlnFWS8ft6C-319" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1699.9999999999995" y="3740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-352" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-260" target="iUQOZWKGrvlnFWS8ft6C-345">
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-352" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-260" target="iUQOZWKGrvlnFWS8ft6C-345" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1010" y="2780" as="targetPoint" />
             <Array as="points">
@@ -661,6 +653,236 @@
               <mxPoint x="840" y="2720" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.387;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-144" target="iUQOZWKGrvlnFWS8ft6C-217">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-237" target="iUQOZWKGrvlnFWS8ft6C-240">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2160" y="2759" width="360" height="562" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-4" value="&lt;div&gt;_create_trimesh(self):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建三角形网格（TriangleMesh）&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-14">
+          <mxGeometry width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-5" value="&lt;div&gt;&amp;nbsp;self:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;类的实例&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-14">
+          <mxGeometry y="80" width="80" height="482" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-6" value="创建gymapi中TriangleMeshParams实例tm_params，用于存储三角形网格的参数和变换信息。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-14">
+          <mxGeometry x="80" y="80" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-8" value="设置tm_params实例的顶点数量和三角形数量，读取自terrain的vertices和triangles的形状。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-14">
+          <mxGeometry x="80" y="158.5" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-9" value="tm_params实例的平移变换参数p由terrain的边界大小决定，注意这里考虑到场地原点的问题，所以设置为负的边界大小。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-14">
+          <mxGeometry x="80" y="239.5" width="280" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-11" value="从cfg的地形参数config中读取静态摩擦，动态摩擦以及弹性系数，设置到tm_params实例中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-14">
+          <mxGeometry x="80" y="322" width="280" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-12" value="调用gym的add_triangle_mesh方法，在模拟环境中添加三角形网格，使用flatten方法把顶点和三角形数据展平。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-14">
+          <mxGeometry x="80" y="404.5" width="280" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-13" value="对terrain的高度采样数据进行处理，将其转为torch.tensor格式，并按地形的行和列数重新设定形状。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-14">
+          <mxGeometry x="80" y="482" width="280" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-238" target="PNU5ctllbV7b61ljTb2I-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2563" y="2759" width="360" height="401" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-18" value="&lt;div&gt;_create_ground_plane(self):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建地面平面&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-26">
+          <mxGeometry width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-19" value="&lt;div&gt;&amp;nbsp;self:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;类的实例&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-26">
+          <mxGeometry y="80" width="80" height="321" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-20" value="创建gymapi中PlaneParams实例plane_params，用于存储平面参数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-26">
+          <mxGeometry x="80" y="80" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-21" value="设定平面的法向量为Vec3(0.0, 0.0, 1.0)，这意味着我们在z轴向上创建一个水平的平面。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-26">
+          <mxGeometry x="80" y="158.5" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-22" value="从cfg的地形参数config中读取静态摩擦，动态摩擦以及弹性系数，设置到plane_params实例中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-26">
+          <mxGeometry x="80" y="239.5" width="280" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-23" value="调用gym的add_ground方法，向模拟环境中添加地面。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-26">
+          <mxGeometry x="80" y="322" width="280" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-53" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2960" y="2759" width="360" height="641" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-35" value="&lt;div&gt;_create_heightfield(self):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建高度场(HeightField)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-53">
+          <mxGeometry width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-36" value="&lt;div&gt;&amp;nbsp;self:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;类的实例&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-53">
+          <mxGeometry y="80" width="80" height="561" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-37" value="创建gymapi中HeightFieldParams实例hf_params，用于存储场地的参数和变换信息。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-53">
+          <mxGeometry x="80" y="80" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-38" value="从terrain的配置中读取参数，包括水平和竖直大小，并设置在hf_params实例中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-53">
+          <mxGeometry x="80" y="158.5" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-39" value="hf_params的行和列数量由terrain的列和行数量决定。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-53">
+          <mxGeometry x="80" y="239.5" width="280" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-40" value="hf_params实例的平移变换参数p由terrain的边界大小决定，注意这里考虑到场地原点的问题，所以设置为负的边界大小。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-53">
+          <mxGeometry x="80" y="322" width="280" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-41" value="从cfg的地形参数config中读取静态摩擦，动态摩擦以及弹性系数，设置到hf_params实例中。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-53">
+          <mxGeometry x="80" y="404.5" width="280" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-42" value="调用gym的add_heightfield方法，向模拟环境中添加高度场地。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-53">
+          <mxGeometry x="80" y="482" width="280" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-52" value="对terrain的高度采样数据进行处理，将其转为torch.tensor格式，并按地形的行和列数重新设定形状。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-53">
+          <mxGeometry x="80" y="562" width="280" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-238" target="PNU5ctllbV7b61ljTb2I-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-238" target="PNU5ctllbV7b61ljTb2I-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-74" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2390" y="1800" width="360" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-57" value="&lt;div&gt;_create_envs(self):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建多个运动模拟环境&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-74">
+          <mxGeometry width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-58" value="&lt;div&gt;&amp;nbsp;self:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;类的实例&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-74">
+          <mxGeometry y="80" width="80" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-59" value="从配置文件中获取路径并加载机器人资产，创建AssetOptions对象并设置相关参数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-74">
+          <mxGeometry x="80" y="80" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-60" value="从机器人资产中获取与关节和刚体相关的属性，以及刚体和关节的名称。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-74">
+          <mxGeometry x="80" y="158.5" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-61" value="根据配置文件中的信息获取脚部，惩罚接触部分和终止接触部分的名称。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-74">
+          <mxGeometry x="80" y="239.5" width="280" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-62" value="根据配置文件中的信息获取初始状态，并将其转换为张量形式。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-74">
+          <mxGeometry x="80" y="322" width="280" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-63" value="获取环境原点得出环境的位置范围（env_lower和env_upper）,以及环境的个数。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-74">
+          <mxGeometry x="80" y="404.5" width="280" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-64" value="在环境实例里，创建一个仿真环境和一个关联的动作对象，设置相关的动作和刚体属性。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-74">
+          <mxGeometry x="80" y="482" width="280" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-73" value="根据名称在动作对象的刚体中查找脚部，惩罚接触部分和终止接触部分的索引。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-74">
+          <mxGeometry x="80" y="560" width="280" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-238" target="PNU5ctllbV7b61ljTb2I-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-86" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="2600" width="240" height="403" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-77" value="&lt;div&gt;_init_buffers(self):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化系统的各种缓存区&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-86">
+          <mxGeometry width="240" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-78" value="获取Gym环境的GPU状态张量。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-86">
+          <mxGeometry y="79" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-79" value="刷新状态张量以保证获取的信息是最新的。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-86">
+          <mxGeometry y="160" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-80" value="创建一些包装张量以获得状态的不同切片信息。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-86">
+          <mxGeometry y="241" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-81" value="初始化一些后续会用到的数据，包括扭矩、动作、增益等参数的缓冲区。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-86">
+          <mxGeometry y="322" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-82" value="接着，初始化几个关于运动方向、重力方向以及噪声方向等的张量。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-86">
+          <mxGeometry x="120" y="80" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-83" value="计算和矢量态变换相关的基线速度、角速度等信息。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-86">
+          <mxGeometry x="120" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-84" value="初始化量测高度点如果在配置中被设定。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-86">
+          <mxGeometry x="120" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-85" value="依据预设的关节弧度为各个关节设定初始位置，并根据相关配置设定对应的增益，如果未在配置中找到相关的增益数值，则设定为0。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-86">
+          <mxGeometry x="120" y="260" width="120" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-112" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="3040" width="280" height="401" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-88" value="&lt;div&gt;_get_noise_scale_vec(self, cfg):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;配置噪声的等级向量&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-112">
+          <mxGeometry width="280" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-89" value="&lt;div&gt;&amp;nbsp;cfg:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;配置信息字典&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#b85450;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-112">
+          <mxGeometry y="79" width="80" height="321" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-107" value="为观察缓冲创建对应维度的全0噪声系数向量。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-112">
+          <mxGeometry x="80" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-108" value="根据设定的噪声倍率，生成对应的噪声衰减系数。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-112">
+          <mxGeometry x="80" y="161" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-109" value="分别对线速度、角速度、重力、关节位置、关节速度等指标进行噪声系数设定。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-112">
+          <mxGeometry x="80" y="241" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-110" value="如果需要测量高度，那么对高度测量增加噪声设定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-112">
+          <mxGeometry x="80" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-111" value="&lt;div&gt;noise_vec:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;噪声等级向量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-112">
+          <mxGeometry x="200" y="80" width="80" height="321" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PNU5ctllbV7b61ljTb2I-82" target="PNU5ctllbV7b61ljTb2I-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-129" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="560" y="3280" width="240" height="401" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-123" value="&lt;div&gt;_init_height_points(self):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化高度点&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-129">
+          <mxGeometry width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-124" value="从配置信息中获取需要测量的x和y坐标点。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-129">
+          <mxGeometry y="81.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-125" value="在x和y的范围内产生网格点，每个网格点代表一个高度位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-129">
+          <mxGeometry y="161.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-126" value="初始化一个与网格点数量相等的零张量来存储每个环境的高度位置。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-129">
+          <mxGeometry y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-127" value="将网格点的坐标存储到对应的张量中，并返回。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-129">
+          <mxGeometry y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-128" value="&lt;div&gt;points&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化的高度点&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9673a6;container=0;align=center;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-129">
+          <mxGeometry x="160" y="80" width="80" height="321" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PNU5ctllbV7b61ljTb2I-84" target="PNU5ctllbV7b61ljTb2I-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-150" target="PNU5ctllbV7b61ljTb2I-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-139" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="320" y="1960" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-133" value="&lt;div&gt;_prepare_reward_function(self):&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;language-python light-scrollbar_caefb&quot;&gt;&lt;code&gt;准备奖励函数&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-139">
+          <mxGeometry width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-134" value="&lt;pre class=&quot;language-python light-scrollbar_caefb&quot;&gt;&lt;code&gt;删除奖励尺度中所有为零的项，&lt;br&gt;并将非零项乘以时间间隔dt。&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-139">
+          <mxGeometry y="81.5" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-135" value="&lt;pre class=&quot;language-python light-scrollbar_caefb&quot;&gt;&lt;code&gt;遍历所有的非终止性质的奖励指标，&lt;br&gt;将他们的计算函数添加到&lt;br&gt;self.reward_functions列表中，&lt;br&gt;将他们的名称添加到&lt;br&gt;self.reward_names列表中。&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-139">
+          <mxGeometry y="161.5" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-136" value="对每个奖励尺度所代表的奖励指标，初始化一个长度等于环境数量的torch张量，初始化为0，使其在设备上且不需要求导。这些张量用于记录每个环境在每个回合中的奖励之和。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-139">
+          <mxGeometry y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-151" target="PNU5ctllbV7b61ljTb2I-133">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
