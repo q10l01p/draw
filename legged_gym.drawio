@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T07:22:12.820Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="Z20GzZhi2e69ylKvq5Ot" version="22.1.22" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T07:34:22.888Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="jP2KIzbC82nP9-2Pmksd" version="22.1.22" type="github">
   <diagram name="第 1 页" id="KrnCUdGARDZyMXWLMkpB">
-    <mxGraphModel dx="2796" dy="2470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2699" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,26 +14,11 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="880" y="-100" />
-              <mxPoint x="880" y="-280" />
-              <mxPoint x="-560" y="-280" />
+              <mxPoint x="880" y="-320" />
+              <mxPoint x="-560" y="-320" />
               <mxPoint x="-560" y="-160" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-23" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-540" y="-240" width="320" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-7" value="&lt;p align=&quot;justify&quot;&gt;get_args()&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-23" vertex="1">
-          <mxGeometry width="80" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-10" value="定义需要解析的命令行参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-23" vertex="1">
-          <mxGeometry x="80" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-11" value="&lt;div&gt;利用`gymutil.parse_arguments`&lt;/div&gt;&lt;div&gt;进行参数解析&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-23" vertex="1">
-          <mxGeometry x="80" y="80" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-12" value="args" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-23" vertex="1">
-          <mxGeometry x="240" width="80" height="160" as="geometry" />
         </mxCell>
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-143" target="iUQOZWKGrvlnFWS8ft6C-168" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -46,15 +31,6 @@
           <mxGeometry x="-0.6744" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-209" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1010" y="1520" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-201" value="&lt;div&gt;obs_scales&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;观察值尺度类&lt;/div&gt;&lt;div&gt;根据不同的观察值设定不同的尺度。&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-209" vertex="1">
-          <mxGeometry width="200" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-202" value="&lt;div align=&quot;center&quot;&gt;lin_vel = 2.0&amp;nbsp; # 线速度的尺度&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&amp;nbsp;ang_vel = 0.25&amp;nbsp; # 角速度的尺度&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;dof_pos = 1.0&amp;nbsp; # DOF位置的尺度&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;dof_vel = 0.05&amp;nbsp; # DOF速度的尺度&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;height_measurements = 5.0&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;# 高度测量的尺度&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" parent="iUQOZWKGrvlnFWS8ft6C-209" vertex="1">
-          <mxGeometry y="79" width="200" height="121" as="geometry" />
         </mxCell>
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-187" target="iUQOZWKGrvlnFWS8ft6C-201" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -92,7 +68,8 @@
             <Array as="points">
               <mxPoint x="2040" y="2079" />
               <mxPoint x="2040" y="1760" />
-              <mxPoint x="2900" y="1760" />
+              <mxPoint x="2700" y="1760" />
+              <mxPoint x="2700" y="2360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -104,21 +81,6 @@
               <mxPoint x="2260" y="2400" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-329" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="820" y="1838" width="200" height="322" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-235" value="&lt;div&gt;create_sim(self):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建仿真环境&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-329" vertex="1">
-          <mxGeometry width="200" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-236" value="初始化向上指向的轴，对于Z轴是2，Y轴是1。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" parent="iUQOZWKGrvlnFWS8ft6C-329" vertex="1">
-          <mxGeometry y="79" width="200" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-237" value="创建模拟环境。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" parent="iUQOZWKGrvlnFWS8ft6C-329" vertex="1">
-          <mxGeometry y="160" width="200" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-238" value="根据配置信息中的地形类型，创建相应的地形。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" parent="iUQOZWKGrvlnFWS8ft6C-329" vertex="1">
-          <mxGeometry y="241" width="200" height="81" as="geometry" />
         </mxCell>
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-331" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-260" target="iUQOZWKGrvlnFWS8ft6C-264" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -136,8 +98,8 @@
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-231" target="iUQOZWKGrvlnFWS8ft6C-235" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="770" y="1880" />
-              <mxPoint x="770" y="1880" />
+              <mxPoint x="720" y="1880" />
+              <mxPoint x="720" y="1760" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -145,7 +107,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-350" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-348" target="iUQOZWKGrvlnFWS8ft6C-285" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2700" y="2080" />
+              <mxPoint x="2700" y="2360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-351" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="iUQOZWKGrvlnFWS8ft6C-349" target="iUQOZWKGrvlnFWS8ft6C-304" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -180,7 +147,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-237" target="iUQOZWKGrvlnFWS8ft6C-240">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="1920" />
+              <mxPoint x="1200" y="2018" />
+              <mxPoint x="1448" y="2018" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-213" value="self.cfg.terrain, self.num_envs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PNU5ctllbV7b61ljTb2I-2">
           <mxGeometry x="-0.594" y="3" relative="1" as="geometry">
@@ -190,32 +163,40 @@
         <mxCell id="PNU5ctllbV7b61ljTb2I-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-238" target="PNU5ctllbV7b61ljTb2I-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1660" y="2120" />
+              <mxPoint x="1160" y="2002" />
+              <mxPoint x="1160" y="2080" />
+              <mxPoint x="1660" y="2080" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-238" target="PNU5ctllbV7b61ljTb2I-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1660" y="2120" />
-              <mxPoint x="1660" y="2670" />
-              <mxPoint x="2040" y="2670" />
+              <mxPoint x="1160" y="2002" />
+              <mxPoint x="1160" y="2080" />
+              <mxPoint x="1490" y="2080" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-238" target="PNU5ctllbV7b61ljTb2I-35">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1660" y="2120" />
-              <mxPoint x="1660" y="2670" />
-              <mxPoint x="2040" y="2670" />
-              <mxPoint x="2040" y="3120" />
-              <mxPoint x="2500" y="3120" />
+              <mxPoint x="1160" y="2002" />
+              <mxPoint x="1160" y="2080" />
+              <mxPoint x="1660" y="2080" />
+              <mxPoint x="1660" y="2300" />
+              <mxPoint x="1890" y="2300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PNU5ctllbV7b61ljTb2I-75" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-238" target="PNU5ctllbV7b61ljTb2I-57">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PNU5ctllbV7b61ljTb2I-75" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-238" target="PNU5ctllbV7b61ljTb2I-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="2002" />
+              <mxPoint x="1160" y="2080" />
+              <mxPoint x="1300" y="2080" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PNU5ctllbV7b61ljTb2I-82" target="PNU5ctllbV7b61ljTb2I-88">
           <mxGeometry relative="1" as="geometry" />
@@ -305,24 +286,6 @@
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-130" target="iUQOZWKGrvlnFWS8ft6C-101">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PNU5ctllbV7b61ljTb2I-152" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-660" width="240" height="440" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-1" value="&lt;div&gt;Train&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#82b366;" parent="PNU5ctllbV7b61ljTb2I-152" vertex="1">
-          <mxGeometry width="80" height="440" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-2" value="获取命令参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#d6b656;" parent="PNU5ctllbV7b61ljTb2I-152" vertex="1">
-          <mxGeometry x="80" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-3" value="环境创建" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#d6b656;" parent="PNU5ctllbV7b61ljTb2I-152" vertex="1">
-          <mxGeometry x="80" y="80" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-4" value="PPO配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#d6b656;" parent="PNU5ctllbV7b61ljTb2I-152" vertex="1">
-          <mxGeometry x="80" y="200" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="iUQOZWKGrvlnFWS8ft6C-5" value="学习" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#d6b656;" parent="PNU5ctllbV7b61ljTb2I-152" vertex="1">
-          <mxGeometry x="80" y="320" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iUQOZWKGrvlnFWS8ft6C-119" target="iUQOZWKGrvlnFWS8ft6C-135">
           <mxGeometry relative="1" as="geometry">
@@ -564,27 +527,6 @@
         <mxCell id="PNU5ctllbV7b61ljTb2I-202" value="legged_gym/envs/base/legged_robot.py" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-203">
           <mxGeometry width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PNU5ctllbV7b61ljTb2I-205" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="920" y="980" width="240" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="PNU5ctllbV7b61ljTb2I-139" value="" style="group" vertex="1" connectable="0" parent="PNU5ctllbV7b61ljTb2I-205">
-          <mxGeometry width="240" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="PNU5ctllbV7b61ljTb2I-133" value="&lt;div&gt;_prepare_reward_function(self):&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;language-python light-scrollbar_caefb&quot;&gt;&lt;code&gt;准备奖励函数&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-139">
-          <mxGeometry width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="PNU5ctllbV7b61ljTb2I-134" value="&lt;pre class=&quot;language-python light-scrollbar_caefb&quot;&gt;&lt;code&gt;删除奖励尺度中所有为零的项，&lt;br&gt;并将非零项乘以时间间隔dt。&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-139">
-          <mxGeometry y="81.5" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="PNU5ctllbV7b61ljTb2I-135" value="&lt;pre class=&quot;language-python light-scrollbar_caefb&quot;&gt;&lt;code&gt;遍历所有的非终止性质的奖励指标，&lt;br&gt;将他们的计算函数添加到&lt;br&gt;self.reward_functions列表中，&lt;br&gt;将他们的名称添加到&lt;br&gt;self.reward_names列表中。&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-139">
-          <mxGeometry y="161.5" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="PNU5ctllbV7b61ljTb2I-136" value="对每个奖励尺度所代表的奖励指标，初始化一个长度等于环境数量的torch张量，初始化为0，使其在设备上且不需要求导。这些张量用于记录每个环境在每个回合中的奖励之和。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-139">
-          <mxGeometry y="240" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="PNU5ctllbV7b61ljTb2I-204" value="legged_gym/envs/base/legged_robot.py" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-205">
-          <mxGeometry y="320" width="240" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-208" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="670" y="1200" width="240" height="500" as="geometry" />
         </mxCell>
@@ -808,7 +750,7 @@
           <mxGeometry y="481" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-239" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2720" y="2120" width="360" height="640" as="geometry" />
+          <mxGeometry x="2520" y="2360" width="360" height="640" as="geometry" />
         </mxCell>
         <mxCell id="iUQOZWKGrvlnFWS8ft6C-301" value="" style="group" parent="PNU5ctllbV7b61ljTb2I-239" vertex="1" connectable="0">
           <mxGeometry width="360" height="560" as="geometry" />
@@ -877,7 +819,7 @@
           <mxGeometry y="560" width="357" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-253" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1040" y="2800" width="360" height="720" as="geometry" />
+          <mxGeometry x="1120" y="2122" width="360" height="720" as="geometry" />
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-74" value="" style="group" vertex="1" connectable="0" parent="PNU5ctllbV7b61ljTb2I-253">
           <mxGeometry width="360" height="640" as="geometry" />
@@ -913,7 +855,7 @@
           <mxGeometry y="640" width="357" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-255" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1480" y="2800" width="360" height="640" as="geometry" />
+          <mxGeometry x="1501" y="2320" width="360" height="640" as="geometry" />
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-14" value="" style="group" vertex="1" connectable="0" parent="PNU5ctllbV7b61ljTb2I-255">
           <mxGeometry width="360" height="562" as="geometry" />
@@ -946,7 +888,7 @@
           <mxGeometry y="560" width="357" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-258" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2320" y="3160" width="360" height="721" as="geometry" />
+          <mxGeometry x="1710" y="3001" width="360" height="721" as="geometry" />
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-53" value="" style="group" vertex="1" connectable="0" parent="PNU5ctllbV7b61ljTb2I-258">
           <mxGeometry width="360" height="641" as="geometry" />
@@ -982,7 +924,7 @@
           <mxGeometry y="641" width="357" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-259" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1880" y="3160" width="360" height="480" as="geometry" />
+          <mxGeometry x="1310" y="3000" width="360" height="480" as="geometry" />
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-26" value="" style="group" vertex="1" connectable="0" parent="PNU5ctllbV7b61ljTb2I-259">
           <mxGeometry width="360" height="401" as="geometry" />
@@ -1097,6 +1039,102 @@
         </mxCell>
         <mxCell id="PNU5ctllbV7b61ljTb2I-265" value="legged_gym/envs/base/legged_robot.py&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LeggedRobot(BaseTask)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-266">
           <mxGeometry y="400" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-267" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="920" y="980" width="240" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-139" value="" style="group" vertex="1" connectable="0" parent="PNU5ctllbV7b61ljTb2I-267">
+          <mxGeometry width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-133" value="&lt;div&gt;_prepare_reward_function(self):&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;language-python light-scrollbar_caefb&quot;&gt;&lt;code&gt;准备奖励函数&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-139">
+          <mxGeometry width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-134" value="&lt;pre class=&quot;language-python light-scrollbar_caefb&quot;&gt;&lt;code&gt;删除奖励尺度中所有为零的项，&lt;br&gt;并将非零项乘以时间间隔dt。&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-139">
+          <mxGeometry y="81.5" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-135" value="&lt;pre class=&quot;language-python light-scrollbar_caefb&quot;&gt;&lt;code&gt;遍历所有的非终止性质的奖励指标，&lt;br&gt;将他们的计算函数添加到&lt;br&gt;self.reward_functions列表中，&lt;br&gt;将他们的名称添加到&lt;br&gt;self.reward_names列表中。&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-139">
+          <mxGeometry y="161.5" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-136" value="对每个奖励尺度所代表的奖励指标，初始化一个长度等于环境数量的torch张量，初始化为0，使其在设备上且不需要求导。这些张量用于记录每个环境在每个回合中的奖励之和。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-139">
+          <mxGeometry y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-204" value="&lt;div&gt;legged_gym/envs/base/legged_robot.py&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LeggedRobot(BaseTask)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-267">
+          <mxGeometry y="320" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-275" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-540" y="-280" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-23" value="" style="group" parent="PNU5ctllbV7b61ljTb2I-275" vertex="1" connectable="0">
+          <mxGeometry y="40" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-7" value="&lt;p align=&quot;justify&quot;&gt;get_args()&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-23" vertex="1">
+          <mxGeometry width="80" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-10" value="定义需要解析的命令行参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-23" vertex="1">
+          <mxGeometry x="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-11" value="&lt;div&gt;利用`gymutil.parse_arguments`&lt;/div&gt;&lt;div&gt;进行参数解析&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-23" vertex="1">
+          <mxGeometry x="80" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-12" value="args" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-23" vertex="1">
+          <mxGeometry x="240" width="80" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-274" value="legged_gym/utils/helpers.py" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-275">
+          <mxGeometry width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-277" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="800" y="1720" width="200" height="402" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-329" value="" style="group" parent="PNU5ctllbV7b61ljTb2I-277" vertex="1" connectable="0">
+          <mxGeometry width="200" height="322" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-235" value="&lt;div&gt;create_sim(self):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建仿真环境&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-329" vertex="1">
+          <mxGeometry width="200" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-236" value="初始化向上指向的轴，对于Z轴是2，Y轴是1。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" parent="iUQOZWKGrvlnFWS8ft6C-329" vertex="1">
+          <mxGeometry y="79" width="200" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-237" value="创建模拟环境。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" parent="iUQOZWKGrvlnFWS8ft6C-329" vertex="1">
+          <mxGeometry y="160" width="200" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-238" value="根据配置信息中的地形类型，创建相应的地形。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" parent="iUQOZWKGrvlnFWS8ft6C-329" vertex="1">
+          <mxGeometry y="241" width="200" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-276" value="legged_gym/envs/base/legged_robot.py&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LeggedRobot(BaseTask)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-277">
+          <mxGeometry y="322" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-282" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1010" y="1520" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-209" value="" style="group" parent="PNU5ctllbV7b61ljTb2I-282" vertex="1" connectable="0">
+          <mxGeometry width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-201" value="&lt;div&gt;obs_scales&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;观察值尺度类&lt;/div&gt;&lt;div&gt;根据不同的观察值设定不同的尺度。&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" parent="iUQOZWKGrvlnFWS8ft6C-209" vertex="1">
+          <mxGeometry width="200" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-202" value="&lt;div align=&quot;center&quot;&gt;lin_vel = 2.0&amp;nbsp; # 线速度的尺度&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&amp;nbsp;ang_vel = 0.25&amp;nbsp; # 角速度的尺度&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;dof_pos = 1.0&amp;nbsp; # DOF位置的尺度&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;dof_vel = 0.05&amp;nbsp; # DOF速度的尺度&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;height_measurements = 5.0&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;# 高度测量的尺度&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#6c8ebf;container=0;align=center;" parent="iUQOZWKGrvlnFWS8ft6C-209" vertex="1">
+          <mxGeometry y="79" width="200" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-280" value="&lt;div&gt;legged_gym/envs/base/legged_robot_config.py&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LeggedRobotCfg(BaseConfig)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;normalization&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;sketch=1;curveFitting=1;jiggle=2;align=center;container=0;" vertex="1" parent="PNU5ctllbV7b61ljTb2I-282">
+          <mxGeometry y="200" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PNU5ctllbV7b61ljTb2I-283" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-660" width="240" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-1" value="&lt;div&gt;Train&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#82b366;" parent="PNU5ctllbV7b61ljTb2I-283" vertex="1">
+          <mxGeometry width="80" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-2" value="获取命令参数" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;" parent="PNU5ctllbV7b61ljTb2I-283" vertex="1">
+          <mxGeometry x="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-3" value="环境创建" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;" parent="PNU5ctllbV7b61ljTb2I-283" vertex="1">
+          <mxGeometry x="80" y="80" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-4" value="PPO配置" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;" parent="PNU5ctllbV7b61ljTb2I-283" vertex="1">
+          <mxGeometry x="80" y="200" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iUQOZWKGrvlnFWS8ft6C-5" value="学习" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;" parent="PNU5ctllbV7b61ljTb2I-283" vertex="1">
+          <mxGeometry x="80" y="320" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
