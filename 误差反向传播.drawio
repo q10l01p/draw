@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T12:20:57.759Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="j5M1XmFA4_Gr85EmvP28" version="23.1.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-02-19T12:21:58.917Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="EnQB9ZOVmQOiUvFZsFzr" version="23.1.5" type="github" pages="6">
   <diagram name="三层神经网络" id="JXPv5diWScLBqXopECfE">
     <mxGraphModel dx="601" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
@@ -1005,6 +1005,9 @@
         </mxCell>
         <mxCell id="zJRz-3x_fidnxe1A5NU--1" value="`E_1+E_2`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1220" y="165" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2KT0nFE818ROXqCzrLd5-1" value="sigmoid" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="270" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
