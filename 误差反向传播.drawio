@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T12:19:06.250Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="grQJwtSArnj0FsyZGOhK" version="23.1.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-02-19T12:19:40.838Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="hj2bvy8oiM__DPnTjFsQ" version="23.1.5" type="github" pages="6">
   <diagram name="三层神经网络" id="JXPv5diWScLBqXopECfE">
     <mxGraphModel dx="601" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
@@ -711,7 +711,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VVjNVF1YFojM3ojm5VIi" name="完整计算图">
-    <mxGraphModel dx="1204" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="337" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1002,6 +1002,9 @@
         </mxCell>
         <mxCell id="lXJ0cye31lN1lGMxiAAk-63" value="`E`" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1280" y="180" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRz-3x_fidnxe1A5NU--1" value="`E_1+E_2`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="165" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
