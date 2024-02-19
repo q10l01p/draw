@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T12:22:58.713Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="4BZEgMIVICMoSCXzepxu" version="23.1.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-02-19T12:46:30.774Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="r1GcQV9oczd_QMSIkeno" version="23.1.5" type="github" pages="6">
   <diagram name="三层神经网络" id="JXPv5diWScLBqXopECfE">
-    <mxGraphModel dx="601" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="581" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -717,7 +717,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VVjNVF1YFojM3ojm5VIi" name="完整计算图">
-    <mxGraphModel dx="337" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="1204" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1019,7 +1019,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gY2bOt0liSZNr1HcrIxY" name="神经网络后半段">
-    <mxGraphModel dx="703" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="843" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1184,6 +1184,9 @@
         </mxCell>
         <mxCell id="g04WlcEZzVftva7M7qBh-42" value="`E`" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="194" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PzIi8ij3tPnPrjAxGC5b-1" value="sigmoid" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="284" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
