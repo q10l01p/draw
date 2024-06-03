@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-03T07:31:09.482Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Uf-cHiA2gLXu5iNHRe51" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-03T07:34:41.021Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="YKDtHacQVxSrK3Oeq0SR" version="24.4.4" type="github">
   <diagram name="任务框架" id="N39X_6KFoOEHDDsWqxKT">
     <mxGraphModel dx="830" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
@@ -19,8 +19,8 @@
         <mxCell id="nwJO27Z_W9xupRxOx_a3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;curved=0;" edge="1" parent="1" source="nwJO27Z_W9xupRxOx_a3-4" target="nwJO27Z_W9xupRxOx_a3-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="640" y="80" />
-              <mxPoint x="460" y="80" />
+              <mxPoint x="640" y="120" />
+              <mxPoint x="460" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -36,16 +36,16 @@
         <mxCell id="nwJO27Z_W9xupRxOx_a3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.47;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;shadow=0;curved=0;" edge="1" parent="1" source="nwJO27Z_W9xupRxOx_a3-4" target="nwJO27Z_W9xupRxOx_a3-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="640" y="80" />
-              <mxPoint x="256" y="80" />
+              <mxPoint x="640" y="120" />
+              <mxPoint x="256" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nwJO27Z_W9xupRxOx_a3-11" value="`s_t,r_t`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="250" y="80" width="60" height="30" as="geometry" />
+        <mxCell id="nwJO27Z_W9xupRxOx_a3-11" value="`s_{t}^\text{gaits},r_{t}^\text{gaits}`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nwJO27Z_W9xupRxOx_a3-13" value="`s_t`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="455" y="80" width="50" height="30" as="geometry" />
+        <mxCell id="nwJO27Z_W9xupRxOx_a3-13" value="`s_{t}^\text{actions},r_{t}^\text{actions}`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
