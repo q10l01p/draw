@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T13:50:44.760Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="A7Rltv8LxAlHGdkplCq3" version="24.6.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-16T13:57:09.879Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="WZjA4NbfVCg-7McNHvaD" version="24.6.5" type="github" pages="4">
   <diagram name="坐标系的平面旋转" id="sqIEFOJiWXiW4yiuFP-f">
     <mxGraphModel dx="988" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
@@ -226,6 +226,102 @@
               <mxPoint x="210" y="690" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pQaXoUxr9_vQ41f_9xGO" name="关于x轴旋转">
+    <mxGraphModel dx="1185" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LC-CvedxLoRLiie4rYOH-5" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#67AB9F;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="520" as="sourcePoint" />
+            <mxPoint x="660" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-6" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#67AB9F;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="520" as="sourcePoint" />
+            <mxPoint x="320" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-8" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#EA6B66;strokeWidth=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="520" as="sourcePoint" />
+            <mxPoint x="480" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-9" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#EA6B66;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="520" as="sourcePoint" />
+            <mxPoint x="720" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=1;rounded=0;strokeColor=#67AB9F;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="420" as="sourcePoint" />
+            <mxPoint x="660" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-21" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=1;rounded=0;strokeColor=#67AB9F;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="330" as="sourcePoint" />
+            <mxPoint x="480" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-22" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=1;rounded=0;strokeColor=#67AB9F;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="420" as="sourcePoint" />
+            <mxPoint x="660" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-23" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 4;strokeWidth=1;rounded=0;strokeColor=#67AB9F;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="340" as="sourcePoint" />
+            <mxPoint x="320" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-24" value="`\hat{x},\hat{x}^{&#39;}`" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-25" value="`\hat{y}`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-26" value="`\hat{y}^{&#39;}`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="399" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-27" value="`\hat{z}`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-28" value="`\hat{z}^{&#39;}`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-29" value="`\theta`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-30" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeColor=#97D077;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="520" as="sourcePoint" />
+            <mxPoint x="540" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-31" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeColor=#97D077;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="450" />
+              <mxPoint x="440" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LC-CvedxLoRLiie4rYOH-32" value="`\theta`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="450" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
