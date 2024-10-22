@@ -19,17 +19,17 @@
         <mxCell id="TUz3deqtGDAToWgcLmCs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1" source="TUz3deqtGDAToWgcLmCs-21" target="TUz3deqtGDAToWgcLmCs-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TUz3deqtGDAToWgcLmCs-21" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;`z`&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="385" width="40" height="30" as="geometry" />
+        <mxCell id="TUz3deqtGDAToWgcLmCs-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;`z`&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TUz3deqtGDAToWgcLmCs-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="TUz3deqtGDAToWgcLmCs-25" target="TUz3deqtGDAToWgcLmCs-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TUz3deqtGDAToWgcLmCs-25" value="`x`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="385" width="40" height="30" as="geometry" />
+        <mxCell id="TUz3deqtGDAToWgcLmCs-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;`x`&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TUz3deqtGDAToWgcLmCs-28" value="`x^&#39;`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="385" width="50" height="30" as="geometry" />
+        <mxCell id="TUz3deqtGDAToWgcLmCs-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;`x^&#39;`&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="380" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TUz3deqtGDAToWgcLmCs-30" value="`q_{\phi}(z|x)`" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="170" y="450" width="100" height="30" as="geometry" />
