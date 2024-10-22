@@ -58,11 +58,20 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="wz8EFcy0Fja30lx42I_F" name="第 2 页">
-    <mxGraphModel dx="830" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+  <diagram id="wz8EFcy0Fja30lx42I_F" name="Diffusion model">
+    <mxGraphModel dx="825" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OEYq5DGIKir6SveBL2qX-1" value="Forward process" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OEYq5DGIKir6SveBL2qX-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;`x_0`&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OEYq5DGIKir6SveBL2qX-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;`x_1`&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
